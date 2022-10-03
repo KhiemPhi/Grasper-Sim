@@ -25,7 +25,7 @@ import pybullet_data
 import math
 import numpy as np
 import random
-
+import urdf_models.models_data as md
 
 MAX_EPISODE_LEN = 20*100
 
@@ -106,10 +106,6 @@ class PandaEnv(gym.Env):
         
         
         self.observation = state_robot + state_fingers # Whatever you want 
-
-        
-        
-        
         
         return np.array(self.observation).astype(np.float32), reward, done, info
 
@@ -120,7 +116,7 @@ class PandaEnv(gym.Env):
         urdfRootPath=pybullet_data.getDataPath()
         p.setGravity(0,0,-10)
 
-        planeUid = p.loadURDF(os.path.join(urdfRootPath,"plane.urdf"), basePosition=[0,0,-0.65])
+        #planeUid = p.loadURDF(os.path.join(urdfRootPath,"plane.urdf"), basePosition=[0,0,-0.65])
 
         rest_poses = [0,-0.215,0,-2.57,0,2.356,2.356,0.08,0.08]
         self.pandaUid = p.loadURDF(os.path.join(urdfRootPath, "franka_panda/panda.urdf"),useFixedBase=True)
@@ -130,10 +126,21 @@ class PandaEnv(gym.Env):
         p.resetJointState(self.pandaUid,10, 0.08)
         tableUid = p.loadURDF(os.path.join(urdfRootPath, "table/table.urdf"),basePosition=[0.5,0,-0.65])
 
-        trayUid = p.loadURDF(os.path.join(urdfRootPath, "tray/traybox.urdf"),basePosition=[0.65,0,0])
+        #trayUid = p.loadURDF(os.path.join(urdfRootPath, "tray/traybox.urdf"),basePosition=[0.65,0,0])
 
         state_object= [random.uniform(0.5,0.8),random.uniform(-0.2,0.2),0.05]
-        self.objectUid = p.loadURDF('ObjectURDFs/cube/cube_small.urdf', basePosition=state_object)
+        state_object_2= [random.uniform(0.5,0.8),random.uniform(-0.2,0.2),0.05]
+        
+        models = md.model_lib()
+        namelist = models.model_name_list
+        random_model = namelist[random.randint(0, len(namelist))] 
+        print(namelist)
+        
+        self.objectUid = p.loadURDF(models['mug'], basePosition=state_object)
+        p.loadURDF(models['flat_screwdriver'], basePosition=state_object_2)
+        
+        
+        
         state_robot = p.getLinkState(self.pandaUid, 11)[0]
         state_fingers = (p.getJointState(self.pandaUid,9)[0], p.getJointState(self.pandaUid, 10)[0])
         self.observation = state_robot + state_fingers
@@ -142,22 +149,22 @@ class PandaEnv(gym.Env):
 
     def render(self, mode='human'):
         view_matrix = p.computeViewMatrixFromYawPitchRoll(cameraTargetPosition=[0.7,0,0.05],
-                                                            distance=1.5,
-                                                            yaw=171.60,
-                                                            pitch=-20.80,
+                                                            distance=0.7,
+                                                            yaw=90,
+                                                            pitch=-70,
                                                             roll=0,
                                                             upAxisIndex=2)
         proj_matrix = p.computeProjectionMatrixFOV(fov=60,
                                                      aspect=float(960) /720,
                                                      nearVal=0.1,
                                                      farVal=10.0)
-        (_, _, px, depth, _) = p.getCameraImage(width=960,
+        (_, _, rgba_img, depth_img, seg_img) = p.getCameraImage(width=960,
                                               height=720,
                                               viewMatrix=view_matrix,
                                               projectionMatrix=proj_matrix,
                                               renderer=p.ER_BULLET_HARDWARE_OPENGL)
 
-        rgb_array = np.array(px, dtype=np.uint8)
+        rgb_array = np.array(rgba_img, dtype=np.uint8)
         rgb_array = np.reshape(rgb_array, (720,960, 4))
         
         rgb_array = rgb_array[:, :, :3]
@@ -171,6 +178,9 @@ class PandaEnv(gym.Env):
 
     def close(self):
         p.disconnect()
+
+
+
 
 
 env = PandaEnv()
