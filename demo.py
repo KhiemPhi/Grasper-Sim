@@ -44,10 +44,11 @@ while True:
                         p.POSITION_CONTROL, 0.08)
         p.setJointMotorControl2(pandaUid, 10, 
                         p.POSITION_CONTROL, 0.08)
+
         view_matrix = p.computeViewMatrixFromYawPitchRoll(cameraTargetPosition=[0.7,0,0.05],
-                                                            distance=1.5,
-                                                            yaw=171.60,
-                                                            pitch=-20.80,
+                                                            distance=0.7,
+                                                            yaw=90,
+                                                            pitch=-70,
                                                             roll=0,
                                                             upAxisIndex=2)
         proj_matrix = p.computeProjectionMatrixFOV(fov=60,

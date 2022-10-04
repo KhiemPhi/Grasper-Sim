@@ -34,10 +34,10 @@ class PandaEnv(gym.Env):
 
     def __init__(self):
         self.step_counter = 0
-        p.connect(p.GUI)
-        p.resetDebugVisualizerCamera(cameraDistance=1.5, cameraYaw=0, cameraPitch=-40, cameraTargetPosition=[0.55,-0.35,0.2])
-        self.action_space = spaces.Box(np.array([-1]*4), np.array([1]*4))
-        self.observation_space = spaces.Box(np.array([-1]*5), np.array([1]*5))
+        p.connect(p.GUI) # create GUI 
+        p.resetDebugVisualizerCamera(cameraDistance=1.5, cameraYaw=0, cameraPitch=-40, cameraTargetPosition=[0.55,-0.35,0.2]) # intial camera position 
+        self.action_space = spaces.Box(np.array([-1]*4), np.array([1]*4))  # modifiable, joint angles
+        self.observation_space = spaces.Box(np.array([-1]*5), np.array([1]*5)) # 
 
     def step(self, action):
         '''
@@ -116,19 +116,26 @@ class PandaEnv(gym.Env):
         urdfRootPath=pybullet_data.getDataPath()
         p.setGravity(0,0,-10)
 
-        #planeUid = p.loadURDF(os.path.join(urdfRootPath,"plane.urdf"), basePosition=[0,0,-0.65])
-
+        # Floor URDF
+        planeUid = p.loadURDF(os.path.join(urdfRootPath,"plane.urdf"), basePosition=[0,0,-0.65])
+        
+        # Initial Config of Robot Arm
         rest_poses = [0,-0.215,0,-2.57,0,2.356,2.356,0.08,0.08]
-        self.pandaUid = p.loadURDF(os.path.join(urdfRootPath, "franka_panda/panda.urdf"),useFixedBase=True)
+        self.pandaUid = p.loadURDF(os.path.join(urdfRootPath, "franka_panda/panda.urdf"),useFixedBase=True) # IMPORTANT LOAD FUNCTION
         for i in range(7):
             p.resetJointState(self.pandaUid,i, rest_poses[i])
         p.resetJointState(self.pandaUid, 9, 0.08)
         p.resetJointState(self.pandaUid,10, 0.08)
-        tableUid = p.loadURDF(os.path.join(urdfRootPath, "table/table.urdf"),basePosition=[0.5,0,-0.65])
+        
+        # Table URDF
+        tableUid = p.loadURDF(os.path.join(urdfRootPath, "table/table.urdf"),basePosition=[0.5,0,-0.65]) 
 
-        #trayUid = p.loadURDF(os.path.join(urdfRootPath, "tray/traybox.urdf"),basePosition=[0.65,0,0])
+        # Object Tray URDF
+        trayUid = p.loadURDF(os.path.join(urdfRootPath, "tray/traybox.urdf"),basePosition=[0.65,0,0])
 
-        state_object= [random.uniform(0.5,0.8),random.uniform(-0.2,0.2),0.05]
+        
+        # Object To Grasp URDF 
+        state_object= [random.uniform(0.5,0.8),random.uniform(-0.2,0.2),0.05] # Random position from uniform distribution
         state_object_2= [random.uniform(0.5,0.8),random.uniform(-0.2,0.2),0.05]
         
         models = md.model_lib()
@@ -139,15 +146,28 @@ class PandaEnv(gym.Env):
         self.objectUid = p.loadURDF(models['mug'], basePosition=state_object)
         p.loadURDF(models['flat_screwdriver'], basePosition=state_object_2)
         
+        # TODO: Get 5-10 Objects On The Screen, read object names from command line and from json files. 
         
         
+        # Initial Joint States
         state_robot = p.getLinkState(self.pandaUid, 11)[0]
         state_fingers = (p.getJointState(self.pandaUid,9)[0], p.getJointState(self.pandaUid, 10)[0])
         self.observation = state_robot + state_fingers
         p.configureDebugVisualizer(p.COV_ENABLE_RENDERING,1)
+
+
+
         return np.array(self.observation).astype(np.float32)
 
     def render(self, mode='human'):
+        # During Render, you can adjust the view + projection matrix as many time as you want 
+
+        # Say I have 4 good camera angles, determines by distance, yaw + ptich
+        # I can loop through all 4 angles to get 4 sets of rgb, depth, seg images 
+
+        
+        
+        
         view_matrix = p.computeViewMatrixFromYawPitchRoll(cameraTargetPosition=[0.7,0,0.05],
                                                             distance=0.7,
                                                             yaw=90,
@@ -167,11 +187,9 @@ class PandaEnv(gym.Env):
         rgb_array = np.array(rgba_img, dtype=np.uint8)
         rgb_array = np.reshape(rgb_array, (720,960, 4))
         
-        rgb_array = rgb_array[:, :, :3]
+        rgb_array = rgb_array[:, :, :3]        
 
-        
-
-        return rgb_array
+        return rgb_array, depth_img, seg_img
 
     def _get_state(self):
         return self.observation
@@ -182,10 +200,14 @@ class PandaEnv(gym.Env):
 
 
 
-
+#1. Create environment
 env = PandaEnv()
 
+#2. Initialize environment 
 env.reset()
+
+
+#3. Begin Simulation
 while True: 
-    env.render()
+    rgb_array, depth_img, seg_img = env.render() # ----> returns either rgb image, or seg img, or everything 
     p.stepSimulation()
