@@ -1,5 +1,5 @@
 astropy==5.1
-certifi @ file:///opt/conda/conda-bld/certifi_1663615672595/work/certifi
+# certifi @ file:///opt/conda/conda-bld/certifi_1663615672595/work/certifi
 cloudpickle==2.2.0
 commonmark==0.9.1
 ghalton==0.6.2
