@@ -147,7 +147,12 @@ class PandaEnv(gym.Env):
         p.loadURDF(models['flat_screwdriver'], basePosition=state_object_2)
         
         # TODO: Get 5-10 Objects On The Screen, read object names from command line and from json files. 
-        
+        while True:
+            requested_obj = input('Enter the object to be loaded: ')
+            if requested_obj = 'done':
+                print(" \n all requested objects loaded")
+                break
+            p.loadURDF(models['flat_screwdriver'], basePosition=state_object)
         
         # Initial Joint States
         state_robot = p.getLinkState(self.pandaUid, 11)[0]
