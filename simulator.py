@@ -149,7 +149,7 @@ class PandaEnv(gym.Env):
         # TODO: Get 5-10 Objects On The Screen, read object names from command line and from json files. 
         while True:
             requested_obj = input('Enter the object to be loaded: ')
-            if requested_obj = 'done':
+            if requested_obj == 'done':
                 print(" \n all requested objects loaded")
                 break
             p.loadURDF(models['flat_screwdriver'], basePosition=state_object)
