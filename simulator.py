@@ -27,6 +27,8 @@ import numpy as np
 import random
 import urdf_models.models_data as md
 
+from grapser_funcs import sphere_set
+
 MAX_EPISODE_LEN = 20*100
 
 class PandaEnv(gym.Env):
@@ -71,22 +73,22 @@ class PandaEnv(gym.Env):
         dz = action[2] * dv
         fingers = action[3]
 
-        currentPose = p.getLinkState(self.pandaUid, 11)
+        currentPose = p.getLinkState(self.pandaUId, 11)
         currentPosition = currentPose[0]
         newPosition = [currentPosition[0] + dx,
                        currentPosition[1] + dy,
                        currentPosition[2] + dz]
-        jointPoses = p.calculateInverseKinematics(self.pandaUid,11,newPosition, orientation)[0:7] # all seven joints    
+        jointPoses = p.calculateInverseKinematics(self.pandaUId,11,newPosition, orientation)[0:7] # all seven joints    
 
-        p.setJointMotorControlArray(self.pandaUid, list(range(7))+[9,10], p.POSITION_CONTROL, list(jointPoses)+2*[fingers])
+        p.setJointMotorControlArray(self.pandaUId, list(range(7))+[9,10], p.POSITION_CONTROL, list(jointPoses)+2*[fingers])
 
         # pybullet.setJointMotorControl2([objectUid],[jointIndex],[controller],[targetPosition]), we can generate it this way 
 
         p.stepSimulation()
 
         state_object, _ = p.getBasePositionAndOrientation(self.objectUid)
-        state_robot = p.getLinkState(self.pandaUid, 11)[0]
-        state_fingers = (p.getJointState(self.pandaUid,9)[0], p.getJointState(self.pandaUid, 10)[0])
+        state_robot = p.getLinkState(self.pandaUId, 11)[0]
+        state_fingers = (p.getJointState(self.pandaUId,9)[0], p.getJointState(self.pandaUId, 10)[0])
 
         if state_object[2]>0.45: # grasp and pick it up to a certain height 
             reward = 1
@@ -121,11 +123,11 @@ class PandaEnv(gym.Env):
         
         # Initial Config of Robot Arm
         rest_poses = [0,-0.215,0,-2.57,0,2.356,2.356,0.08,0.08]
-        self.pandaUid = p.loadURDF(os.path.join(urdfRootPath, "franka_panda/panda.urdf"),useFixedBase=True) # IMPORTANT LOAD FUNCTION
+        self.pandaUId = p.loadURDF(os.path.join(urdfRootPath, "franka_panda/panda.urdf"),useFixedBase=True) # IMPORTANT LOAD FUNCTION
         for i in range(7):
-            p.resetJointState(self.pandaUid,i, rest_poses[i])
-        p.resetJointState(self.pandaUid, 9, 0.08)
-        p.resetJointState(self.pandaUid,10, 0.08)
+            p.resetJointState(self.pandaUId,i, rest_poses[i])
+        p.resetJointState(self.pandaUId, 9, 0.08)
+        p.resetJointState(self.pandaUId,10, 0.08)
         
         # Table URDF
         tableUid = p.loadURDF(os.path.join(urdfRootPath, "table/table.urdf"),basePosition=[0.5,0,-0.65]) 
@@ -135,29 +137,34 @@ class PandaEnv(gym.Env):
 
         
         # Object To Grasp URDF 
-        state_object= [random.uniform(0.5,0.8),random.uniform(-0.2,0.2),0.05] # Random position from uniform distribution
+        self.state_object= [0.7,0,0.1] #[random.uniform(0.5,0.8),random.uniform(-0.2,0.2),0.05] # Random position from uniform distribution
         state_object_2= [random.uniform(0.5,0.8),random.uniform(-0.2,0.2),0.05]
         
-        models = md.model_lib()
-        namelist = models.model_name_list
-        random_model = namelist[random.randint(0, len(namelist))] 
-        print(namelist)
+        self.models = md.model_lib()
+        namelist = self.models.model_name_list
+        #random_model = namelist[random.randint(0, len(namelist))] 
         
-        self.objectUid = p.loadURDF(models['mug'], basePosition=state_object)
-        p.loadURDF(models['flat_screwdriver'], basePosition=state_object_2)
+        
+        p.setGravity(0,0,-10)
+        self.objectUid =   p.loadURDF(os.path.join(urdfRootPath, "random_urdfs/000/000.urdf"), basePosition=[0.7,0,0.1]) #p.loadURDF(self.models['soap'], basePosition=self.state_object)
+        #p.loadURDF(models['flat_screwdriver'], basePosition=state_object_2)
         
         # TODO: Get 5-10 Objects On The Screen, read object names from command line and from json files. 
         
         
         # Initial Joint States
-        state_robot = p.getLinkState(self.pandaUid, 11)[0]
-        state_fingers = (p.getJointState(self.pandaUid,9)[0], p.getJointState(self.pandaUid, 10)[0])
+        state_robot = p.getLinkState(self.pandaUId, 11)[0]
+        state_fingers = (p.getJointState(self.pandaUId,9)[0], p.getJointState(self.pandaUId, 10)[0])
         self.observation = state_robot + state_fingers
         p.configureDebugVisualizer(p.COV_ENABLE_RENDERING,1)
 
 
 
         return np.array(self.observation).astype(np.float32)
+    
+    def reset_object(self): 
+        p.removeBody(self.objectUid)
+        self.objectUid =  p.loadURDF(self.models['soap'], basePosition=self.state_object)
 
     def render(self, mode='human'):
         # During Render, you can adjust the view + projection matrix as many time as you want 
@@ -165,8 +172,6 @@ class PandaEnv(gym.Env):
         # Say I have 4 good camera angles, determines by distance, yaw + ptich
         # I can loop through all 4 angles to get 4 sets of rgb, depth, seg images 
 
-        
-        
         
         view_matrix = p.computeViewMatrixFromYawPitchRoll(cameraTargetPosition=[0.7,0,0.05],
                                                             distance=0.7,
@@ -198,8 +203,6 @@ class PandaEnv(gym.Env):
         p.disconnect()
 
 
-
-
 #1. Create environment
 env = PandaEnv()
 
@@ -207,7 +210,122 @@ env = PandaEnv()
 env.reset()
 
 
-#3. Begin Simulation
-while True: 
-    rgb_array, depth_img, seg_img = env.render() # ----> returns either rgb image, or seg img, or everything 
+# #3. Begin Simulation
+
+state_durations = [1.0, 0.2, 0.2, 2] # number of seconds to hold state
+control_dt = 1./240.
+p.setTimestep = control_dt
+state_t = 0.
+current_state = 0
+cycle = 0
+
+rotate_coeff = math.pi/6.
+
+rotate_coeff_2 = math.pi/4.
+
+# random wtihin range 
+
+
+while True:
+    state_t += control_dt
+    p.configureDebugVisualizer(p.COV_ENABLE_SINGLE_STEP_RENDERING) 
+    if current_state == 0:
+        if state_t > 0.1:
+            if cycle !=0: 
+                p.setJointMotorControl2(env.pandaUId, 2, 
+                            p.POSITION_CONTROL,0) # can modify    
+                
+                
+                p.setJointMotorControl2(env.pandaUId, 4, 
+                            p.POSITION_CONTROL,0) # can modify
+                p.setJointMotorControl2(env.pandaUId, 6, 
+                            p.POSITION_CONTROL,coeff) # can modify
+            
+            
+            else:
+                p.setJointMotorControl2(env.pandaUId, 2, 
+                            p.POSITION_CONTROL,0) # can modify    
+                p.setJointMotorControl2(env.pandaUId, 4, 
+                            p.POSITION_CONTROL,0) # can modify
+                p.setJointMotorControl2(env.pandaUId, 6, 
+                            p.POSITION_CONTROL,-math.pi/4.) # can modify
+
+            p.setJointMotorControl2(env.pandaUId, 0, 
+                            p.POSITION_CONTROL,0) # do not modify
+            p.setJointMotorControl2(env.pandaUId, 1, 
+                            p.POSITION_CONTROL,math.pi/4.) # do not modify 
+            p.setJointMotorControl2(env.pandaUId, 3, 
+                            p.POSITION_CONTROL,-math.pi/2.) # do not modify
+            p.setJointMotorControl2(env.pandaUId, 5,  
+                            p.POSITION_CONTROL,3*math.pi/4) # do not modify
+            
+            p.setJointMotorControl2(env.pandaUId, 9, 
+                            p.POSITION_CONTROL, 0.08)
+            p.setJointMotorControl2(env.pandaUId, 10, 
+                            p.POSITION_CONTROL, 0.08)
+
+            view_matrix = p.computeViewMatrixFromYawPitchRoll(cameraTargetPosition=[0.7,0,0.05],
+                                                                distance=0.7,
+                                                                yaw=90,
+                                                                pitch=-70,
+                                                                roll=0,
+                                                                upAxisIndex=2)
+            proj_matrix = p.computeProjectionMatrixFOV(fov=60,
+                                                        aspect=float(960) /720,
+                                                        nearVal=0.1,
+                                                        farVal=10.0)
+            (_, _, px, depth, _) = p.getCameraImage(width=960,
+                                                height=720,
+                                                viewMatrix=view_matrix,
+                                                projectionMatrix=proj_matrix,
+                                                renderer=p.ER_BULLET_HARDWARE_OPENGL)
+    if current_state == 1:
+        
+        p.setJointMotorControl2(env.pandaUId, 1, 
+                        p.POSITION_CONTROL,math.pi/4.+.15)
+        p.setJointMotorControl2(env.pandaUId, 3, 
+                        p.POSITION_CONTROL,-math.pi/2.+.15)
+    
+    
+    
+    
+    if current_state == 2:
+        
+       
+
+        p.setJointMotorControl2(env.pandaUId, 9, 
+                        p.POSITION_CONTROL, 0.0, force = 1000)
+        p.setJointMotorControl2(env.pandaUId, 10, 
+                        p.POSITION_CONTROL, 0.0, force = 1000)
+    
+    
+    
+    if current_state == 3:
+        p.setJointMotorControl2(env.pandaUId, 1, 
+                        p.POSITION_CONTROL,math.pi/4.-1)
+        p.setJointMotorControl2(env.pandaUId, 3, 
+                        p.POSITION_CONTROL,-math.pi/2.-1)
+
+    
+    
+    
+    
+    if state_t >state_durations[current_state]:
+       
+        current_state += 1
+        if current_state >= len(state_durations):
+            current_state = 0
+            # cycle ends here if cycle > 0, we can randomly sample grasps for different positions
+            cycle += 1
+            rotate_coeff += math.pi/6
+            rotate_coeff_2 += math.pi/4.
+            env.reset()
+           
+            coeff = random.uniform( -math.pi/6., 2*math.pi )
+        
+        state_t = 0
+    
+
+
     p.stepSimulation()
+
