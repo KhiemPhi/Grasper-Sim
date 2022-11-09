@@ -77,6 +77,8 @@ def get_grasp_img():
     rgb_array = np.reshape(rgb_array, (720,960, 4))        
     rgb_array = rgb_array[:, :, :3]
 
+    depth_img = (depth_img*255).astype(np.uint8)
+
     return rgb_array, depth_img, seg_img
     
 
@@ -107,7 +109,7 @@ def main(args):
     namelist = models.model_name_list
     state_object= [0.7,0,0.1]
     object_name = args.object
-    folder_path = "grasp_" + object_name
+    folder_path = args.folder_path
     objectUid = p.loadURDF(models[object_name], basePosition=state_object)     
     coeff = random.uniform( -math.pi/6., 2*math.pi )
 
@@ -120,6 +122,7 @@ def main(args):
         
         if current_state == 0 and state_t > 0.2: # add extra time delay to wait for object to be situated
             move_arm_and_rotate(pandaUid, coeff)
+            
             
         if current_state == 1:        
             approach_object(pandaUid)
@@ -137,7 +140,7 @@ def main(args):
             
             if current_state == 3: 
                 contact = p.getContactPoints(objectUid, pandaUid)    
-                if len(contact) > 0: 
+                if len(contact) > 5: 
                     file_name_success = "success_" + object_name + "_" +  str(success_counter) + ".jpg"
                     file_name_success_depth = "success_depth_" + object_name + "_" +  str(success_counter) + ".jpg"
                     file_name_success_seg = "success_seg_" + object_name + "_" +  str(success_counter) + ".jpg"
@@ -156,14 +159,13 @@ def main(args):
                     success_counter += 1
                 else: 
                     file_name_fail = "fail_" + object_name + "_" +  str(fail_counter) + ".jpg"
-                    file_name_fail_depth = "success_depth_" + object_name + "_" +  str(success_counter) + ".jpg"
-                    file_name_fail_seg = "success_seg_" + object_name + "_" +  str(success_counter) + ".jpg"
+                    file_name_fail_depth = "fail_depth_" + object_name + "_" +  str(success_counter) + ".jpg"
+                    file_name_fail_seg = "fail_seg_" + object_name + "_" +  str(success_counter) + ".jpg"
                     
                     full_path = os.path.join(folder_path, file_name_fail)
                     full_path_seg = os.path.join(folder_path, file_name_fail_seg)
                     full_path_depth = os.path.join(folder_path, file_name_fail_depth)
-
-
+                    
                     rgb_array = cv2.cvtColor(rgb_array, cv2.COLOR_BGR2RGB)
                     cv2.imwrite(full_path, rgb_array)
                     cv2.imwrite(full_path_seg, seg_img)
@@ -189,5 +191,6 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='BinaryCodeNet With Local Features')
     parser.add_argument('--num_sim', type=int) 
     parser.add_argument('--object', type=str) 
+    parser.add_argument('--folder_path', type=str)
     args = parser.parse_args()
     main(args)
