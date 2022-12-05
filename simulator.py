@@ -26,6 +26,7 @@ import math
 import numpy as np
 import random
 import urdf_models.models_data as md
+import json
 
 MAX_EPISODE_LEN = 20*100
 
@@ -141,19 +142,39 @@ class PandaEnv(gym.Env):
         models = md.model_lib()
         namelist = models.model_name_list
         random_model = namelist[random.randint(0, len(namelist))] 
-        print(namelist)
-        
-        self.objectUid = p.loadURDF(models['mug'], basePosition=state_object)
-        p.loadURDF(models['flat_screwdriver'], basePosition=state_object_2)
+        # self.objectUid = p.loadURDF(models['mug'], basePosition=state_object)
+        # p.loadURDF(models['flat_screwdriver'], basePosition=state_object_2)
         
         # TODO: Get 5-10 Objects On The Screen, read object names from command line and from json files. 
-        while True:
-            requested_obj = input('Enter the object to be loaded: ')
-            if requested_obj == 'done':
-                print(" \n all requested objects loaded")
-                break
-            p.loadURDF(models['flat_screwdriver'], basePosition=state_object)
+        urdf_input_choice = input('\n Enter "console" to enter urdf objects through console, "json" to pass urdf info through json \n ')
         
+        if urdf_input_choice == 'console':
+            print("\n enter object names from the below list \n")
+            print(namelist)
+            print("\n")
+            while True:
+                requested_obj = input('Enter the object to be loaded: ')
+                if requested_obj == 'done':
+                    print(" \n all requested objects loaded\n")
+                    break
+                self.objectUid = p.loadURDF(models[requested_obj], basePosition=[random.uniform(0.5,0.8),random.uniform(-0.2,0.2),0.05])
+        
+        if urdf_input_choice == 'json':
+            # Trying to load all urdf from a JSON file
+            urdf_file = open(input('Enter the json file containing urdf info: '))
+            print("\n loading urdf objects specfied...\n")
+            # returns JSON object as a dictionary
+            objects_of_interest = json.load(urdf_file)
+            
+            # Iterating through the json
+            for urdf_object in objects_of_interest['object_details']:
+                print("\n detected object specified as" + models[urdf_object['object_name']])
+                self.objectUid = p.loadURDF(models[urdf_object['object_name']], basePosition=[random.uniform(0.45,0.8),random.uniform(-0.25,0.25),0.05])
+                
+            # Closing file
+            urdf_file.close()
+            print("\n All urdfs specified in file have been loaded \n")
+
         # Initial Joint States
         state_robot = p.getLinkState(self.pandaUid, 11)[0]
         state_fingers = (p.getJointState(self.pandaUid,9)[0], p.getJointState(self.pandaUid, 10)[0])
