@@ -2,8 +2,8 @@
     "0": {
         "pre_grasp_robot_coordinates": {
             "joint_0": {
-                "joint_position": 8.2326e-06,
-                "joint_velocity": -0.0001496279,
+                "joint_position": 1.05601e-05,
+                "joint_velocity": -0.0002100907,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -12,11 +12,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": -0.177236014
+                "applied_joint_motor_torque": -0.1508895157
             },
             "joint_1": {
-                "joint_position": 0.9299413798,
-                "joint_velocity": 0.1454526253,
+                "joint_position": 0.9299374496,
+                "joint_velocity": 0.1455488304,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -25,11 +25,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": -63.0437804409
+                "applied_joint_motor_torque": -62.9324428873
             },
             "joint_2": {
-                "joint_position": -0.0001704287,
-                "joint_velocity": 0.0038261058,
+                "joint_position": -0.0001283074,
+                "joint_velocity": 0.0027157156,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -38,11 +38,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.9552435371
+                "applied_joint_motor_torque": 0.9770070484
             },
             "joint_3": {
-                "joint_position": -1.4127924939,
-                "joint_velocity": -0.2146091103,
+                "joint_position": -1.4129198571,
+                "joint_velocity": -0.2112159334,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -51,11 +51,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 27.0563664777
+                "applied_joint_motor_torque": 26.9799150463
             },
             "joint_4": {
-                "joint_position": -3.04921e-05,
-                "joint_velocity": 0.0011023213,
+                "joint_position": 1.86285e-05,
+                "joint_velocity": -0.000238283,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -64,11 +64,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 1.1930671066
+                "applied_joint_motor_torque": 1.2098986828
             },
             "joint_5": {
-                "joint_position": 2.3426969555,
-                "joint_velocity": 0.3599364051,
+                "joint_position": 2.3427020698,
+                "joint_velocity": 0.3597999675,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -77,11 +77,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 2.5335977161
+                "applied_joint_motor_torque": 2.5218910785
             },
             "joint_6": {
-                "joint_position": 2.1961242891,
-                "joint_velocity": 0.3375806921,
+                "joint_position": 0.7699015643,
+                "joint_velocity": 0.1182447818,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -90,7 +90,7 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": -0.0403006588
+                "applied_joint_motor_torque": -0.0140029727
             },
             "joint_7": {
                 "joint_position": 0.0,
@@ -119,8 +119,8 @@
                 "applied_joint_motor_torque": 0.0
             },
             "joint_9": {
-                "joint_position": 0.0397802355,
-                "joint_velocity": 0.0060393764,
+                "joint_position": 0.0397704332,
+                "joint_velocity": 0.0061354773,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -129,11 +129,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": -0.1603146038
+                "applied_joint_motor_torque": -0.0101889464
             },
             "joint_10": {
-                "joint_position": 0.0397683976,
-                "joint_velocity": 0.0060023511,
+                "joint_position": 0.0397711115,
+                "joint_velocity": 0.0060883085,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -142,18 +142,18 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.1268747919
+                "applied_joint_motor_torque": -0.0225089811
             },
             "link_state": [
-                0.7235616336,
-                -0.0001218572,
-                0.0357458788
+                0.7235046612,
+                -8.36494e-05,
+                0.035689938
             ]
         },
         "post_grasp_robot_coordinates": {
             "joint_0": {
-                "joint_position": 1.7298e-06,
-                "joint_velocity": -1.8981e-06,
+                "joint_position": -4.17207e-05,
+                "joint_velocity": -6.97949e-05,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -162,11 +162,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": -0.001649658
+                "applied_joint_motor_torque": 0.2002692316
             },
             "joint_1": {
-                "joint_position": 0.9353581205,
-                "joint_velocity": 0.0010290497,
+                "joint_position": 0.9353952916,
+                "joint_velocity": 0.0011011996,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -175,11 +175,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": -46.5999960409
+                "applied_joint_motor_torque": -15.9113661488
             },
             "joint_2": {
-                "joint_position": -1.9117e-05,
-                "joint_velocity": 3.47926e-05,
+                "joint_position": 4.15896e-05,
+                "joint_velocity": 3.26046e-05,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -188,11 +188,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.795642979
+                "applied_joint_motor_torque": 0.950832045
             },
             "joint_3": {
-                "joint_position": -1.4207680218,
-                "joint_velocity": -0.0015031674,
+                "joint_position": -1.4198181817,
+                "joint_velocity": 0.0002690494,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -201,11 +201,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 18.1600675471
+                "applied_joint_motor_torque": -1.230046198
             },
             "joint_4": {
-                "joint_position": 6.9943e-06,
-                "joint_velocity": 4.4484e-06,
+                "joint_position": -0.0002718383,
+                "joint_velocity": -0.0006150632,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -214,11 +214,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.850956662
+                "applied_joint_motor_torque": 0.6996343791
             },
             "joint_5": {
-                "joint_position": 2.3560991187,
-                "joint_velocity": 0.0025446008,
+                "joint_position": 2.3565255857,
+                "joint_velocity": 0.0033628646,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -227,11 +227,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 1.5914805095
+                "applied_joint_motor_torque": -3.5460068448
             },
             "joint_6": {
-                "joint_position": 2.2086940684,
-                "joint_velocity": 0.0023865775,
+                "joint_position": 0.7743297544,
+                "joint_velocity": 0.0012161415,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -240,7 +240,7 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": -0.0002549543
+                "applied_joint_motor_torque": -0.2756152172
             },
             "joint_7": {
                 "joint_position": 0.0,
@@ -269,8 +269,8 @@
                 "applied_joint_motor_torque": 0.0
             },
             "joint_9": {
-                "joint_position": 0.000285644,
-                "joint_velocity": -0.007500367,
+                "joint_position": 0.0273901825,
+                "joint_velocity": 0.0257354306,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -279,11 +279,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.0189129676
+                "applied_joint_motor_torque": -200.0
             },
             "joint_10": {
-                "joint_position": 0.0002768689,
-                "joint_velocity": -0.0074964861,
+                "joint_position": 0.0192981627,
+                "joint_velocity": -0.0292211919,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -292,27 +292,922 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.0210113735
+                "applied_joint_motor_torque": -200.0
             },
             "link_state": [
-                0.7211626112,
-                -1.10927e-05,
-                0.0289908434
+                0.7216415834,
+                -2.56061e-05,
+                0.0293955867
             ]
         },
-        "contact_points_joint_9": [],
-        "contact_points_joint_10": [],
+        "contact_points_left_finger": [
+            {
+                "position_on_A": [
+                    0.725808923,
+                    -0.0275510312,
+                    0.0301017547
+                ],
+                "position_on_B": [
+                    0.7257947831,
+                    -0.0260672945,
+                    0.0300968922
+                ],
+                "contact_normal_on_B": [
+                    0.0227196145,
+                    0.9983626003,
+                    0.0524970236
+                ],
+                "contact_distance": -0.0014807308,
+                "Normal_force": 45.0142467871
+            },
+            {
+                "position_on_A": [
+                    0.7279369593,
+                    -0.0276150099,
+                    0.0297359747
+                ],
+                "position_on_B": [
+                    0.7279131884,
+                    -0.0261190643,
+                    0.0297558147
+                ],
+                "contact_normal_on_B": [
+                    0.0222665234,
+                    0.9983525059,
+                    0.0528817166
+                ],
+                "contact_distance": -0.0014940009,
+                "Normal_force": 153.6715102868
+            },
+            {
+                "position_on_A": [
+                    0.7257967435,
+                    -0.027549245,
+                    0.0300724241
+                ],
+                "position_on_B": [
+                    0.7257828666,
+                    -0.0260827819,
+                    0.0300667291
+                ],
+                "contact_normal_on_B": [
+                    0.0227196145,
+                    0.9983626003,
+                    0.0524970236
+                ],
+                "contact_distance": -0.0014634477,
+                "Normal_force": 45.0161262585
+            },
+            {
+                "position_on_A": [
+                    0.7279251563,
+                    -0.0276123378,
+                    0.0297024813
+                ],
+                "position_on_B": [
+                    0.7279026721,
+                    -0.0261318818,
+                    0.0297288657
+                ],
+                "contact_normal_on_B": [
+                    0.0222665234,
+                    0.9983525059,
+                    0.0528817166
+                ],
+                "contact_distance": -0.0014789117,
+                "Normal_force": 153.668011837
+            },
+            {
+                "position_on_A": [
+                    0.7257861455,
+                    -0.0275467164,
+                    0.0300465353
+                ],
+                "position_on_B": [
+                    0.7257723512,
+                    -0.0260955586,
+                    0.0300397815
+                ],
+                "contact_normal_on_B": [
+                    0.0227196145,
+                    0.9983626003,
+                    0.0524970236
+                ],
+                "contact_distance": -0.0014481138,
+                "Normal_force": 45.0177078299
+            },
+            {
+                "position_on_A": [
+                    0.7279147419,
+                    -0.0276089677,
+                    0.0296720319
+                ],
+                "position_on_B": [
+                    0.7278934321,
+                    -0.0261422672,
+                    0.0297048243
+                ],
+                "contact_normal_on_B": [
+                    0.0222665234,
+                    0.9983525059,
+                    0.0528817166
+                ],
+                "contact_distance": -0.0014655437,
+                "Normal_force": 153.6645059298
+            },
+            {
+                "position_on_A": [
+                    0.7257769688,
+                    -0.0275434986,
+                    0.0300237234
+                ],
+                "position_on_B": [
+                    0.7257631118,
+                    -0.0261059074,
+                    0.0300157401
+                ],
+                "contact_normal_on_B": [
+                    0.0227196145,
+                    0.9983626003,
+                    0.0524970236
+                ],
+                "contact_distance": -0.0014345033,
+                "Normal_force": 45.0190430087
+            },
+            {
+                "position_on_A": [
+                    0.7279055738,
+                    -0.0276049759,
+                    0.0296442995
+                ],
+                "position_on_B": [
+                    0.7278853538,
+                    -0.0261505001,
+                    0.0296834104
+                ],
+                "contact_normal_on_B": [
+                    0.0222665234,
+                    0.9983525059,
+                    0.0528817166
+                ],
+                "contact_distance": -0.0014536976,
+                "Normal_force": 153.6609145501
+            },
+            {
+                "position_on_A": [
+                    0.7257690721,
+                    -0.0275396671,
+                    0.030003663
+                ],
+                "position_on_B": [
+                    0.7257550339,
+                    -0.0261141074,
+                    0.0299943248
+                ],
+                "contact_normal_on_B": [
+                    0.0227196145,
+                    0.9983626003,
+                    0.0524970236
+                ],
+                "contact_distance": -0.0014224163,
+                "Normal_force": 45.0201689183
+            },
+            {
+                "position_on_A": [
+                    0.7278975256,
+                    -0.0276004459,
+                    0.0296189933
+                ],
+                "position_on_B": [
+                    0.727878333,
+                    -0.0261568432,
+                    0.0296643707
+                ],
+                "contact_normal_on_B": [
+                    0.0222665234,
+                    0.9983525059,
+                    0.0528817166
+                ],
+                "contact_distance": -0.0014431967,
+                "Normal_force": 153.6830812907
+            },
+            {
+                "position_on_A": [
+                    0.7257623296,
+                    -0.027535305,
+                    0.0299860645
+                ],
+                "position_on_B": [
+                    0.7257480132,
+                    -0.0261204211,
+                    0.0299752821
+                ],
+                "contact_normal_on_B": [
+                    0.0227196145,
+                    0.9983626003,
+                    0.0524970236
+                ],
+                "contact_distance": -0.0014116759,
+                "Normal_force": 45.0132578985
+            },
+            {
+                "position_on_A": [
+                    0.7278909706,
+                    -0.027598023,
+                    0.029595282
+                ],
+                "position_on_B": [
+                    0.7278723914,
+                    -0.026164766,
+                    0.0296475522
+                ],
+                "contact_normal_on_B": [
+                    0.0222665234,
+                    0.9983525059,
+                    0.0528817166
+                ],
+                "contact_distance": -0.0014332462,
+                "Normal_force": 153.6660348156
+            },
+            {
+                "position_on_A": [
+                    0.7257571118,
+                    -0.0275330949,
+                    0.0299700855
+                ],
+                "position_on_B": [
+                    0.7257420713,
+                    -0.0261283175,
+                    0.0299584591
+                ],
+                "contact_normal_on_B": [
+                    0.0227196145,
+                    0.9983626003,
+                    0.0524970236
+                ],
+                "contact_distance": -0.0014015251,
+                "Normal_force": 45.0145992604
+            },
+            {
+                "position_on_A": [
+                    0.7278852661,
+                    -0.0275961801,
+                    0.029573535
+                ],
+                "position_on_B": [
+                    0.7278673156,
+                    -0.02617213,
+                    0.0296326496
+                ],
+                "contact_normal_on_B": [
+                    0.0222665234,
+                    0.9983525059,
+                    0.0528817166
+                ],
+                "contact_distance": -0.0014244304,
+                "Normal_force": 153.6572415124
+            },
+            {
+                "position_on_A": [
+                    0.7257527802,
+                    -0.0275314684,
+                    0.0299561088
+                ],
+                "position_on_B": [
+                    0.7257369951,
+                    -0.0261356581,
+                    0.0299435509
+                ],
+                "contact_normal_on_B": [
+                    0.0227196145,
+                    0.9983626003,
+                    0.0524970236
+                ],
+                "contact_distance": -0.0013925069,
+                "Normal_force": 45.0155224947
+            },
+            {
+                "position_on_A": [
+                    0.7278802945,
+                    -0.02759414,
+                    0.0295536257
+                ],
+                "position_on_B": [
+                    0.727863023,
+                    -0.0261782704,
+                    0.0296194837
+                ],
+                "contact_normal_on_B": [
+                    0.0222665234,
+                    0.9983525059,
+                    0.0528817166
+                ],
+                "contact_distance": -0.0014166351,
+                "Normal_force": 153.6512867135
+            },
+            {
+                "position_on_A": [
+                    0.7257492178,
+                    -0.0275296437,
+                    0.0299440088
+                ],
+                "position_on_B": [
+                    0.7257327019,
+                    -0.0261417777,
+                    0.0299303783
+                ],
+                "contact_normal_on_B": [
+                    0.0227196145,
+                    0.9983626003,
+                    0.0524970236
+                ],
+                "contact_distance": -0.0013845027,
+                "Normal_force": 45.0161267439
+            },
+            {
+                "position_on_A": [
+                    0.7278759739,
+                    -0.0275916133,
+                    0.0295353832
+                ],
+                "position_on_B": [
+                    0.7278594409,
+                    -0.0261830118,
+                    0.0296078897
+                ],
+                "contact_normal_on_B": [
+                    0.0222665234,
+                    0.9983525059,
+                    0.0528817166
+                ],
+                "contact_distance": -0.001409747,
+                "Normal_force": 153.6464582652
+            },
+            {
+                "position_on_A": [
+                    0.7257463435,
+                    -0.0275273303,
+                    0.0299336153
+                ],
+                "position_on_B": [
+                    0.725729119,
+                    -0.0261465005,
+                    0.0299187766
+                ],
+                "contact_normal_on_B": [
+                    0.0227196145,
+                    0.9983626003,
+                    0.0524970236
+                ],
+                "contact_distance": -0.0013773986,
+                "Normal_force": 45.0165525257
+            },
+            {
+                "position_on_A": [
+                    0.7278722396,
+                    -0.0275885176,
+                    0.0295186334
+                ],
+                "position_on_B": [
+                    0.7278565042,
+                    -0.0261863779,
+                    0.0295977172
+                ],
+                "contact_normal_on_B": [
+                    0.0222665234,
+                    0.9983525059,
+                    0.0528817166
+                ],
+                "contact_distance": -0.0014036614,
+                "Normal_force": 153.6420585525
+            },
+            {
+                "position_on_A": [
+                    0.7257440933,
+                    -0.027524446,
+                    0.0299247549
+                ],
+                "position_on_B": [
+                    0.7257261813,
+                    -0.02614985,
+                    0.0299085954
+                ],
+                "contact_normal_on_B": [
+                    0.0227196145,
+                    0.9983626003,
+                    0.0524970236
+                ],
+                "contact_distance": -0.0013710899,
+                "Normal_force": 45.0168650554
+            },
+            {
+                "position_on_A": [
+                    0.7278690367,
+                    -0.0275848617,
+                    0.0295032132
+                ],
+                "position_on_B": [
+                    0.7278541543,
+                    -0.026188474,
+                    0.0295888296
+                ],
+                "contact_normal_on_B": [
+                    0.0222665234,
+                    0.9983525059,
+                    0.0528817166
+                ],
+                "contact_distance": -0.0013982833,
+                "Normal_force": 153.6575127479
+            },
+            {
+                "position_on_A": [
+                    0.7257424127,
+                    -0.0275210001,
+                    0.029917265
+                ],
+                "position_on_B": [
+                    0.7257238302,
+                    -0.0261519312,
+                    0.0298996982
+                ],
+                "contact_normal_on_B": [
+                    0.0227196145,
+                    0.9983626003,
+                    0.0524970236
+                ],
+                "contact_distance": -0.0013654827,
+                "Normal_force": 45.0101784856
+            },
+            {
+                "position_on_A": [
+                    0.7278666681,
+                    -0.0275824767,
+                    0.0294885658
+                ],
+                "position_on_B": [
+                    0.7278524375,
+                    -0.0261917277,
+                    0.0295811733
+                ],
+                "contact_normal_on_B": [
+                    0.0222665234,
+                    0.9983525059,
+                    0.0528817166
+                ],
+                "contact_distance": -0.0013930381,
+                "Normal_force": 153.6432992021
+            },
+            {
+                "position_on_A": [
+                    0.7257416027,
+                    -0.0275188518,
+                    0.0299105796
+                ],
+                "position_on_B": [
+                    0.7257221122,
+                    -0.0261551719,
+                    0.0298920312
+                ],
+                "contact_normal_on_B": [
+                    0.0227196145,
+                    0.9983626003,
+                    0.0524970236
+                ],
+                "contact_distance": -0.0013600305,
+                "Normal_force": 45.0108648776
+            },
+            {
+                "position_on_A": [
+                    0.7278647037,
+                    -0.0275802407,
+                    0.0294749664
+                ],
+                "position_on_B": [
+                    0.7278511941,
+                    -0.0261945213,
+                    0.0295745465
+                ],
+                "contact_normal_on_B": [
+                    0.0222665234,
+                    0.9983525059,
+                    0.0528817166
+                ],
+                "contact_distance": -0.0013884015,
+                "Normal_force": 153.6432780003
+            },
+            {
+                "position_on_A": [
+                    0.7257412364,
+                    -0.0275168513,
+                    0.0299049837
+                ],
+                "position_on_B": [
+                    0.7257208673,
+                    -0.0261579539,
+                    0.0298853929
+                ],
+                "contact_normal_on_B": [
+                    0.0227196145,
+                    0.9983626003,
+                    0.0524970236
+                ],
+                "contact_distance": -0.0013551811,
+                "Normal_force": 45.0083795748
+            },
+            {
+                "position_on_A": [
+                    0.7278631934,
+                    -0.0275783266,
+                    0.0294622595
+                ],
+                "position_on_B": [
+                    0.727850423,
+                    -0.0261972628,
+                    0.0295688875
+                ],
+                "contact_normal_on_B": [
+                    0.0222665234,
+                    0.9983525059,
+                    0.0528817166
+                ],
+                "contact_distance": -0.0013841429,
+                "Normal_force": 153.6335185871
+            },
+            {
+                "position_on_A": [
+                    0.7257413634,
+                    -0.0275151763,
+                    0.0299003191
+                ],
+                "position_on_B": [
+                    0.7257200945,
+                    -0.0261606851,
+                    0.0298797216
+                ],
+                "contact_normal_on_B": [
+                    0.0227196145,
+                    0.9983626003,
+                    0.0524970236
+                ],
+                "contact_distance": -0.0013507088,
+                "Normal_force": 45.0088615458
+            },
+            {
+                "position_on_A": [
+                    0.7278619819,
+                    -0.027576064,
+                    0.0294504351
+                ],
+                "position_on_B": [
+                    0.7278500335,
+                    -0.0261991482,
+                    0.0295640663
+                ],
+                "contact_normal_on_B": [
+                    0.0222665234,
+                    0.9983525059,
+                    0.0528817166
+                ],
+                "contact_distance": -0.0013803903,
+                "Normal_force": 153.6355554058
+            },
+            {
+                "position_on_A": [
+                    0.72574183,
+                    -0.027513149,
+                    0.0298965788
+                ],
+                "position_on_B": [
+                    0.7257197034,
+                    -0.0261625616,
+                    0.0298748877
+                ],
+                "contact_normal_on_B": [
+                    0.0227196145,
+                    0.9983626003,
+                    0.0524970236
+                ],
+                "contact_distance": -0.0013467345,
+                "Normal_force": 45.0061568548
+            },
+            {
+                "position_on_A": [
+                    0.7278611328,
+                    -0.0275740033,
+                    0.0294393443
+                ],
+                "position_on_B": [
+                    0.7278500375,
+                    -0.0262009497,
+                    0.0295600403
+                ],
+                "contact_normal_on_B": [
+                    0.0222665234,
+                    0.9983525059,
+                    0.0528817166
+                ],
+                "contact_distance": -0.0013769271,
+                "Normal_force": 153.6261149042
+            },
+            {
+                "position_on_A": [
+                    0.7257426995,
+                    -0.0275113251,
+                    0.0298936112
+                ],
+                "position_on_B": [
+                    0.7257197055,
+                    -0.0261643552,
+                    0.0298708481
+                ],
+                "contact_normal_on_B": [
+                    0.0227196145,
+                    0.9983626003,
+                    0.0524970236
+                ],
+                "contact_distance": -0.001343047,
+                "Normal_force": 45.0065947263
+            },
+            {
+                "position_on_A": [
+                    0.727860514,
+                    -0.0275715471,
+                    0.0294289583
+                ],
+                "position_on_B": [
+                    0.7278503506,
+                    -0.0262019397,
+                    0.0295566936
+                ],
+                "contact_normal_on_B": [
+                    0.0222665234,
+                    0.9983525059,
+                    0.0528817166
+                ],
+                "contact_distance": -0.0013738796,
+                "Normal_force": 153.9918543826
+            },
+            {
+                "position_on_A": [
+                    0.7257438412,
+                    -0.0275091022,
+                    0.0298913906
+                ],
+                "position_on_B": [
+                    0.7257200166,
+                    -0.0261653383,
+                    0.0298674874
+                ],
+                "contact_normal_on_B": [
+                    0.0227196145,
+                    0.9983626003,
+                    0.0524970236
+                ],
+                "contact_distance": -0.0013397675,
+                "Normal_force": 45.0762704692
+            }
+        ],
+        "contact_points_right_finger": [
+            {
+                "position_on_A": [
+                    0.7205310396,
+                    0.0272269658,
+                    0.0354136187
+                ],
+                "position_on_B": [
+                    0.7205313881,
+                    0.027817565,
+                    0.0353979732
+                ],
+                "contact_normal_on_B": [
+                    -0.0005899432,
+                    -0.9996491257,
+                    0.0264816421
+                ],
+                "contact_distance": 0.0005908066,
+                "Normal_force": 9.9916971578
+            },
+            {
+                "position_on_A": [
+                    0.7207570776,
+                    0.0249782966,
+                    0.0353734624
+                ],
+                "position_on_B": [
+                    0.7204264396,
+                    0.0249283209,
+                    0.0349554679
+                ],
+                "contact_normal_on_B": [
+                    -0.0005899432,
+                    -0.9996491257,
+                    0.0264816421
+                ],
+                "contact_distance": -3.9084e-05,
+                "Normal_force": 164.7144299861
+            },
+            {
+                "position_on_A": [
+                    0.7132591835,
+                    0.0251669688,
+                    0.0353013447
+                ],
+                "position_on_B": [
+                    0.7132576227,
+                    0.025106081,
+                    0.03530457
+                ],
+                "contact_normal_on_B": [
+                    -0.0255897677,
+                    -0.9982729691,
+                    0.0528795138
+                ],
+                "contact_distance": -6.09931e-05,
+                "Normal_force": 46.9630757889
+            },
+            {
+                "position_on_A": [
+                    0.7204690913,
+                    0.0246715192,
+                    0.0353117423
+                ],
+                "position_on_B": [
+                    0.7203679934,
+                    0.0244477722,
+                    0.034612026
+                ],
+                "contact_normal_on_B": [
+                    -0.0005899432,
+                    -0.9996491257,
+                    0.0264816421
+                ],
+                "contact_distance": -0.0002051984,
+                "Normal_force": 143.9649667915
+            },
+            {
+                "position_on_A": [
+                    0.7129703285,
+                    0.0248271512,
+                    0.0352521673
+                ],
+                "position_on_B": [
+                    0.7131991569,
+                    0.0246274875,
+                    0.0349597224
+                ],
+                "contact_normal_on_B": [
+                    -0.0255897677,
+                    -0.9982729691,
+                    0.0528795138
+                ],
+                "contact_distance": -0.0001779989,
+                "Normal_force": 42.6478949086
+            },
+            {
+                "position_on_A": [
+                    0.7211755965,
+                    0.0246557764,
+                    0.0352890602
+                ],
+                "position_on_B": [
+                    0.7211715789,
+                    0.0244655224,
+                    0.035298818
+                ],
+                "contact_normal_on_B": [
+                    -0.0210843761,
+                    -0.9984653323,
+                    0.0512096602
+                ],
+                "contact_distance": -0.0001905465,
+                "Normal_force": 13.2990684739
+            },
+            {
+                "position_on_A": [
+                    0.7201971636,
+                    0.0245387061,
+                    0.035187933
+                ],
+                "position_on_B": [
+                    0.7203084147,
+                    0.0243260573,
+                    0.0343021691
+                ],
+                "contact_normal_on_B": [
+                    -0.0005899432,
+                    -0.9996491257,
+                    0.0264816421
+                ],
+                "contact_distance": -0.000189052,
+                "Normal_force": 142.3783986685
+            },
+            {
+                "position_on_A": [
+                    0.7126977146,
+                    0.0246658928,
+                    0.0351518695
+                ],
+                "position_on_B": [
+                    0.7131395666,
+                    0.0245075967,
+                    0.0346486756
+                ],
+                "contact_normal_on_B": [
+                    -0.0255897677,
+                    -0.9982729691,
+                    0.0528795138
+                ],
+                "contact_distance": -0.0001201072,
+                "Normal_force": 42.4502719733
+            },
+            {
+                "position_on_A": [
+                    0.72090365,
+                    0.0245257106,
+                    0.0351630334
+                ],
+                "position_on_B": [
+                    0.721111891,
+                    0.0243436171,
+                    0.0349890938
+                ],
+                "contact_normal_on_B": [
+                    -0.0210843761,
+                    -0.9984653323,
+                    0.0512096602
+                ],
+                "contact_distance": -0.0001685161,
+                "Normal_force": 13.4015342639
+            },
+            {
+                "position_on_A": [
+                    0.7206228405,
+                    0.0244547994,
+                    0.0351089972
+                ],
+                "position_on_B": [
+                    0.7210537726,
+                    0.0242867222,
+                    0.0347084319
+                ],
+                "contact_normal_on_B": [
+                    -0.0210843761,
+                    -0.9984653323,
+                    0.0512096602
+                ],
+                "contact_distance": -0.0001382205,
+                "Normal_force": 193.9477479275
+            },
+            {
+                "position_on_A": [
+                    0.7207161742,
+                    0.0245686363,
+                    0.0347489907
+                ],
+                "position_on_B": [
+                    0.7210073728,
+                    0.0237095308,
+                    0.0344559962
+                ],
+                "contact_normal_on_B": [
+                    -0.0210843761,
+                    -0.9984653323,
+                    0.0512096602
+                ],
+                "contact_distance": -0.0008366431,
+                "Normal_force": 197.0641159658
+            },
+            {
+                "position_on_A": [
+                    0.7207801267,
+                    0.0246167606,
+                    0.0344393572
+                ],
+                "position_on_B": [
+                    0.7209649309,
+                    0.0231186407,
+                    0.0342279183
+                ],
+                "contact_normal_on_B": [
+                    -0.0210843761,
+                    -0.9984653323,
+                    0.0512096602
+                ],
+                "contact_distance": -0.0014810966,
+                "Normal_force": 197.4745159046
+            }
+        ],
         "length_of_contact_points": {
-            "contact_joint_9": 0,
-            "contact_joint_10": 0
+            "contact_joint_left_finger": 35,
+            "contact_joint_right_finger": 12
         },
         "image_snapshot_path": "grasp_soap/fail_soap_0.jpg"
     },
     "1": {
         "pre_grasp_robot_coordinates": {
             "joint_0": {
-                "joint_position": 1.9202e-06,
-                "joint_velocity": -2.6332e-06,
+                "joint_position": -7.69331e-05,
+                "joint_velocity": 0.002101301,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -321,11 +1216,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.0450436625
+                "applied_joint_motor_torque": -0.1604040506
             },
             "joint_1": {
-                "joint_position": 0.9287158699,
-                "joint_velocity": 0.1781481862,
+                "joint_position": 0.9287367511,
+                "joint_velocity": 0.1775939832,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -334,11 +1229,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": -53.01370588
+                "applied_joint_motor_torque": -55.5044177585
             },
             "joint_2": {
-                "joint_position": -2.8441e-05,
-                "joint_velocity": 0.0002353015,
+                "joint_position": -0.0001208075,
+                "joint_velocity": 0.0026741792,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -347,11 +1242,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.9113488758
+                "applied_joint_motor_torque": 0.7978606689
             },
             "joint_3": {
-                "joint_position": -1.4275066532,
-                "joint_velocity": 0.1781593338,
+                "joint_position": -1.4247737141,
+                "joint_velocity": 0.1052052621,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -360,11 +1255,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 20.0316413564
+                "applied_joint_motor_torque": 21.7548909561
             },
             "joint_4": {
-                "joint_position": 6.6707e-06,
-                "joint_velocity": -8.291e-07,
+                "joint_position": -0.0011445224,
+                "joint_velocity": 0.0307449461,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -373,11 +1268,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.9384243229
+                "applied_joint_motor_torque": 0.944033403
             },
             "joint_5": {
-                "joint_position": 2.3561945626,
-                "joint_velocity": -3.269e-07,
+                "joint_position": 2.3561024559,
+                "joint_velocity": 0.0024908249,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -386,11 +1281,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 1.7085471865
+                "applied_joint_motor_torque": 1.9789477038
             },
             "joint_6": {
-                "joint_position": 0.7204692079,
-                "joint_velocity": -0.2285811768,
+                "joint_position": 2.1037606447,
+                "joint_velocity": 0.2003144206,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -399,7 +1294,7 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.0274082503
+                "applied_joint_motor_torque": -0.0261870681
             },
             "joint_7": {
                 "joint_position": 0.0,
@@ -428,8 +1323,8 @@
                 "applied_joint_motor_torque": 0.0
             },
             "joint_9": {
-                "joint_position": 0.0397711524,
-                "joint_velocity": 0.0061061245,
+                "joint_position": 0.0396416915,
+                "joint_velocity": 0.0096939776,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -438,11 +1333,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": -0.0200554048
+                "applied_joint_motor_torque": -0.0410105549
             },
             "joint_10": {
-                "joint_position": 0.0397706491,
-                "joint_velocity": 0.0061109936,
+                "joint_position": 0.0400060665,
+                "joint_velocity": -0.0003639897,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -451,18 +1346,18 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": -0.0131077292
+                "applied_joint_motor_torque": 0.0192112469
             },
             "link_state": [
-                0.7202371663,
-                -1.7834e-05,
-                0.0311904799
+                0.7214978945,
+                -0.0002622489,
+                0.0324356755
             ]
         },
         "post_grasp_robot_coordinates": {
             "joint_0": {
-                "joint_position": -3.6539e-06,
-                "joint_velocity": -2.2677e-06,
+                "joint_position": -3.26306e-05,
+                "joint_velocity": -8.5054e-06,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -471,11 +1366,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.0561401127
+                "applied_joint_motor_torque": 0.2624469598
             },
             "joint_1": {
-                "joint_position": 0.9353527324,
-                "joint_velocity": 0.0012734157,
+                "joint_position": 0.9353501185,
+                "joint_velocity": 0.0012256426,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -484,11 +1379,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": -45.0458666169
+                "applied_joint_motor_torque": 6.8773898832
             },
             "joint_2": {
-                "joint_position": 0.000305668,
-                "joint_velocity": -0.0001091467,
+                "joint_position": 3.2505e-05,
+                "joint_velocity": 0.0004703086,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -497,11 +1392,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.9156745339
+                "applied_joint_motor_torque": 1.0838601131
             },
             "joint_3": {
-                "joint_position": -1.4207621612,
-                "joint_velocity": 0.0012245482,
+                "joint_position": -1.4199651067,
+                "joint_velocity": 0.0004031389,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -510,11 +1405,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 17.1435938479
+                "applied_joint_motor_torque": -9.3327051868
             },
             "joint_4": {
-                "joint_position": -3.93004e-05,
-                "joint_velocity": 1.744e-06,
+                "joint_position": -0.0003210205,
+                "joint_velocity": 0.0004945575,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -523,11 +1418,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.870645401
+                "applied_joint_motor_torque": 0.8892965386
             },
             "joint_5": {
-                "joint_position": 2.3562223544,
-                "joint_velocity": 0.0001144785,
+                "joint_position": 2.3561901233,
+                "joint_velocity": -0.0004536799,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -536,11 +1431,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 1.3301124667
+                "applied_joint_motor_torque": -1.7692644009
             },
             "joint_6": {
-                "joint_position": 0.7119342237,
-                "joint_velocity": -0.0017217249,
+                "joint_position": 2.1112909682,
+                "joint_velocity": 0.0015261369,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -549,7 +1444,7 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": -0.0746710802
+                "applied_joint_motor_torque": -0.0577608117
             },
             "joint_7": {
                 "joint_position": 0.0,
@@ -578,8 +1473,8 @@
                 "applied_joint_motor_torque": 0.0
             },
             "joint_9": {
-                "joint_position": 0.0381508497,
-                "joint_velocity": 0.0002867713,
+                "joint_position": 0.0401822768,
+                "joint_velocity": 0.0004244698,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -591,8 +1486,8 @@
                 "applied_joint_motor_torque": -200.0
             },
             "joint_10": {
-                "joint_position": 0.0075855286,
-                "joint_velocity": -0.0009875484,
+                "joint_position": 0.0391715028,
+                "joint_velocity": -0.0007642383,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -604,235 +1499,63 @@
                 "applied_joint_motor_torque": -200.0
             },
             "link_state": [
-                0.7211904731,
-                0.0001998576,
-                0.0290049244
+                0.7215250923,
+                -3.13004e-05,
+                0.029338671
             ]
         },
-        "contact_points_joint_9": [
+        "contact_points_left_finger": [],
+        "contact_points_right_finger": [
             {
                 "position_on_A": [
-                    0.7306539044,
-                    -0.0379651167,
-                    0.0317268855
+                    0.7574002634,
+                    0.0177274299,
+                    0.0288923286
                 ],
                 "position_on_B": [
-                    0.73076587,
-                    -0.0364709099,
-                    0.0319128722
+                    0.7570043927,
+                    0.0176402317,
+                    0.0289128697
                 ],
                 "contact_normal_on_B": [
-                    -0.0316019188,
-                    0.9980978198,
-                    0.0529344955
+                    -0.9753377682,
+                    -0.2148370998,
+                    0.0506088769
                 ],
-                "contact_distance": -0.0014976713,
-                "Normal_force": 146.9509126675
+                "contact_distance": -0.0004058805,
+                "Normal_force": 196.506780169
             },
             {
                 "position_on_A": [
-                    0.730656994,
-                    -0.0379646568,
-                    0.0317232539
+                    0.7578146128,
+                    0.0177922545,
+                    0.0288186012
                 ],
                 "position_on_B": [
-                    0.7307684124,
-                    -0.0364740704,
-                    0.0319098519
+                    0.7567754678,
+                    0.0175664165,
+                    0.0286473946
                 ],
                 "contact_normal_on_B": [
-                    -0.0316019188,
-                    0.9980978198,
-                    0.0529344955
+                    -0.9753377682,
+                    -0.2148370998,
+                    0.0506088769
                 ],
-                "contact_distance": -0.0014941075,
-                "Normal_force": 146.9516510211
-            },
-            {
-                "position_on_A": [
-                    0.7306595938,
-                    -0.0379642435,
-                    0.0317197979
-                ],
-                "position_on_B": [
-                    0.7307706459,
-                    -0.0364767727,
-                    0.0319070955
-                ],
-                "contact_normal_on_B": [
-                    -0.0316019188,
-                    0.9980978198,
-                    0.0529344955
-                ],
-                "contact_distance": -0.0014910464,
-                "Normal_force": 146.9527241186
-            },
-            {
-                "position_on_A": [
-                    0.7306617806,
-                    -0.0379638574,
-                    0.0317165198
-                ],
-                "position_on_B": [
-                    0.7307726011,
-                    -0.0364790564,
-                    0.0319045765
-                ],
-                "contact_normal_on_B": [
-                    -0.0316019188,
-                    0.9980978198,
-                    0.0529344955
-                ],
-                "contact_distance": -0.0014884292,
-                "Normal_force": 146.9538200821
-            },
-            {
-                "position_on_A": [
-                    0.7306636129,
-                    -0.0379634933,
-                    0.0317134092
-                ],
-                "position_on_B": [
-                    0.7307743063,
-                    -0.0364809698,
-                    0.0319022709
-                ],
-                "contact_normal_on_B": [
-                    -0.0316019188,
-                    0.9980978198,
-                    0.0529344955
-                ],
-                "contact_distance": -0.0014862027,
-                "Normal_force": 146.9565674043
-            },
-            {
-                "position_on_A": [
-                    0.7306652388,
-                    -0.0379633014,
-                    0.0317102065
-                ],
-                "position_on_B": [
-                    0.7307758293,
-                    -0.03648295,
-                    0.0319001638
-                ],
-                "contact_normal_on_B": [
-                    -0.0316019188,
-                    0.9980978198,
-                    0.0529344955
-                ],
-                "contact_distance": -0.001484096,
-                "Normal_force": 146.9559445518
-            },
-            {
-                "position_on_A": [
-                    0.7306665531,
-                    -0.0379631717,
-                    0.0317071651
-                ],
-                "position_on_B": [
-                    0.7307771456,
-                    -0.0364846571,
-                    0.0318982265
-                ],
-                "contact_normal_on_B": [
-                    -0.0316019188,
-                    0.9980978198,
-                    0.0529344955
-                ],
-                "contact_distance": -0.001482321,
-                "Normal_force": 146.9567750529
-            },
-            {
-                "position_on_A": [
-                    0.7306676224,
-                    -0.0379630415,
-                    0.0317043087
-                ],
-                "position_on_B": [
-                    0.730778276,
-                    -0.0364860642,
-                    0.0318964441
-                ],
-                "contact_normal_on_B": [
-                    -0.0316019188,
-                    0.9980978198,
-                    0.0529344955
-                ],
-                "contact_distance": -0.0014808416,
-                "Normal_force": 146.9591151296
-            }
-        ],
-        "contact_points_joint_10": [
-            {
-                "position_on_A": [
-                    0.7096129968,
-                    0.0271982252,
-                    0.0353706557
-                ],
-                "position_on_B": [
-                    0.7096131647,
-                    0.0276344924,
-                    0.0353480382
-                ],
-                "contact_normal_on_B": [
-                    -0.000384268,
-                    -0.9986587661,
-                    0.0517737496
-                ],
-                "contact_distance": 0.0004368531,
-                "Normal_force": 13.0282110352
-            },
-            {
-                "position_on_A": [
-                    0.7098584568,
-                    0.0247982105,
-                    0.0352503387
-                ],
-                "position_on_B": [
-                    0.7098524007,
-                    0.0247414076,
-                    0.0352012015
-                ],
-                "contact_normal_on_B": [
-                    -0.000384268,
-                    -0.9986587661,
-                    0.0517737496
-                ],
-                "contact_distance": -5.4185e-05,
-                "Normal_force": 202.4419641735
-            },
-            {
-                "position_on_A": [
-                    0.7230971596,
-                    0.0247896493,
-                    0.0368664194
-                ],
-                "position_on_B": [
-                    0.7231728761,
-                    0.0234990469,
-                    0.0368925633
-                ],
-                "contact_normal_on_B": [
-                    0.0585548773,
-                    -0.998079431,
-                    0.020218202
-                ],
-                "contact_distance": -0.0012930859,
-                "Normal_force": 203.2221328508
+                "contact_distance": -0.0010533712,
+                "Normal_force": 195.0263892031
             }
         ],
         "length_of_contact_points": {
-            "contact_joint_9": 8,
-            "contact_joint_10": 3
+            "contact_joint_left_finger": 0,
+            "contact_joint_right_finger": 2
         },
         "image_snapshot_path": "grasp_soap/fail_soap_1.jpg"
     },
     "2": {
         "pre_grasp_robot_coordinates": {
             "joint_0": {
-                "joint_position": -7.2467e-06,
-                "joint_velocity": 0.0002460921,
+                "joint_position": -4.51474e-05,
+                "joint_velocity": 0.0006846655,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -841,11 +1564,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.1496373009
+                "applied_joint_motor_torque": 3.4241999952
             },
             "joint_1": {
-                "joint_position": 0.9287183319,
-                "joint_velocity": 0.1780839763,
+                "joint_position": 0.928713848,
+                "joint_velocity": 0.1786879264,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -854,11 +1577,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": -53.1355820974
+                "applied_joint_motor_torque": -22.0864166874
             },
             "joint_2": {
-                "joint_position": 1.76498e-05,
-                "joint_velocity": -0.0010043132,
+                "joint_position": -1.03471e-05,
+                "joint_velocity": -0.0013801738,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -867,11 +1590,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.982938201
+                "applied_joint_motor_torque": 3.9481680556
             },
             "joint_3": {
-                "joint_position": -1.4273754737,
-                "joint_velocity": 0.1746316687,
+                "joint_position": -1.4262929823,
+                "joint_velocity": 0.1628979877,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -880,11 +1603,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 20.1164448506
+                "applied_joint_motor_torque": 3.7618912729
             },
             "joint_4": {
-                "joint_position": -1.81678e-05,
-                "joint_velocity": 0.0006896529,
+                "joint_position": -0.0004549216,
+                "joint_velocity": 0.0042942055,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -893,11 +1616,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.8927721043
+                "applied_joint_motor_torque": 1.385881291
             },
             "joint_5": {
-                "joint_position": 2.3562050808,
-                "joint_velocity": -0.0002805617,
+                "joint_position": 2.3561022923,
+                "joint_velocity": 0.0036659348,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -906,11 +1629,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 1.7219773149
+                "applied_joint_motor_torque": -0.8383775566
             },
             "joint_6": {
-                "joint_position": 2.9542061925,
-                "joint_velocity": 0.3438348658,
+                "joint_position": 2.4613254004,
+                "joint_velocity": 0.053920811,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -919,7 +1642,7 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": -0.0413119968
+                "applied_joint_motor_torque": 0.302097519
             },
             "joint_7": {
                 "joint_position": 0.0,
@@ -948,8 +1671,8 @@
                 "applied_joint_motor_torque": 0.0
             },
             "joint_9": {
-                "joint_position": 0.0397714443,
-                "joint_velocity": 0.0061894588,
+                "joint_position": 0.0412187263,
+                "joint_velocity": 0.012167584,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -958,11 +1681,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.0295525915
+                "applied_joint_motor_torque": -25.2284678293
             },
             "joint_10": {
-                "joint_position": 0.0397868083,
-                "joint_velocity": 0.0055942877,
+                "joint_position": 0.0410021505,
+                "joint_velocity": 0.0128595773,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -971,18 +1694,18 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": -0.0623809437
+                "applied_joint_motor_torque": -34.1504181858
             },
             "link_state": [
-                0.7203008437,
-                6.8981e-06,
-                0.0312505026
+                0.720758424,
+                -7.91586e-05,
+                0.0317181278
             ]
         },
         "post_grasp_robot_coordinates": {
             "joint_0": {
-                "joint_position": 1.7777e-06,
-                "joint_velocity": 1.6053e-06,
+                "joint_position": -3.83865e-05,
+                "joint_velocity": 1.08525e-05,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -991,11 +1714,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.0009195237
+                "applied_joint_motor_torque": 2.6388559012
             },
             "joint_1": {
-                "joint_position": 0.9353493651,
-                "joint_velocity": 0.0012590865,
+                "joint_position": 0.9353539771,
+                "joint_velocity": 0.001261999,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1004,11 +1727,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": -46.5313711821
+                "applied_joint_motor_torque": 2.5423964475
             },
             "joint_2": {
-                "joint_position": -1.73529e-05,
-                "joint_velocity": -4.9033e-06,
+                "joint_position": -1.04933e-05,
+                "joint_velocity": -0.0001545309,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1017,11 +1740,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.7960525511
+                "applied_joint_motor_torque": 2.9531357584
             },
             "joint_3": {
-                "joint_position": -1.4208713226,
-                "joint_velocity": 0.0012363283,
+                "joint_position": -1.4198570361,
+                "joint_velocity": 0.0012429435,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1030,11 +1753,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 18.1114949002
+                "applied_joint_motor_torque": -7.6790048475
             },
             "joint_4": {
-                "joint_position": 6.821e-06,
-                "joint_velocity": 4.2779e-06,
+                "joint_position": -0.000328655,
+                "joint_velocity": -1.79408e-05,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1043,11 +1766,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.848858433
+                "applied_joint_motor_torque": 1.2201948467
             },
             "joint_5": {
-                "joint_position": 2.3561946187,
-                "joint_velocity": -1.9945e-06,
+                "joint_position": 2.3562798747,
+                "joint_velocity": 5.86582e-05,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1056,11 +1779,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 1.5857491527
+                "applied_joint_motor_torque": -2.3594329483
             },
             "joint_6": {
-                "joint_position": 2.9670088453,
-                "joint_velocity": 0.0024307923,
+                "joint_position": 2.4633766583,
+                "joint_velocity": 0.0004297943,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1069,7 +1792,7 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": -0.0002617464
+                "applied_joint_motor_torque": 0.5954337658
             },
             "joint_7": {
                 "joint_position": 0.0,
@@ -1098,8 +1821,8 @@
                 "applied_joint_motor_torque": 0.0
             },
             "joint_9": {
-                "joint_position": 0.0002844559,
-                "joint_velocity": -0.0074974473,
+                "joint_position": 0.0401701313,
+                "joint_velocity": -7.74531e-05,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1108,11 +1831,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.020290377
+                "applied_joint_motor_torque": -200.0
             },
             "joint_10": {
-                "joint_position": 0.0002781246,
-                "joint_velocity": -0.0075011781,
+                "joint_position": 0.0388650993,
+                "joint_velocity": -0.0002975984,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1121,27 +1844,27 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.0196387184
+                "applied_joint_motor_torque": -200.0
             },
             "link_state": [
-                0.7211392848,
-                -9.7862e-06,
-                0.0289592502
+                0.7215869541,
+                -6.31613e-05,
+                0.0293874644
             ]
         },
-        "contact_points_joint_9": [],
-        "contact_points_joint_10": [],
+        "contact_points_left_finger": [],
+        "contact_points_right_finger": [],
         "length_of_contact_points": {
-            "contact_joint_9": 0,
-            "contact_joint_10": 0
+            "contact_joint_left_finger": 0,
+            "contact_joint_right_finger": 0
         },
         "image_snapshot_path": "grasp_soap/fail_soap_2.jpg"
     },
     "3": {
         "pre_grasp_robot_coordinates": {
             "joint_0": {
-                "joint_position": -9.084e-07,
-                "joint_velocity": 7.69842e-05,
+                "joint_position": 1.8251e-06,
+                "joint_velocity": -2.3306e-06,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1150,11 +1873,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.088326872
+                "applied_joint_motor_torque": 0.0454544219
             },
             "joint_1": {
-                "joint_position": 0.9287169379,
-                "joint_velocity": 0.1781212171,
+                "joint_position": 0.9287159157,
+                "joint_velocity": 0.1781482467,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1163,11 +1886,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": -53.0492317063
+                "applied_joint_motor_torque": -53.0136917505
             },
             "joint_2": {
-                "joint_position": -9.9049e-06,
-                "joint_velocity": -0.0002599373,
+                "joint_position": -2.8383e-05,
+                "joint_velocity": 0.0002293298,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1176,11 +1899,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.9407965557
+                "applied_joint_motor_torque": 0.9116314033
             },
             "joint_3": {
-                "joint_position": -1.4274689985,
-                "joint_velocity": 0.1771291724,
+                "joint_position": -1.4275061985,
+                "joint_velocity": 0.1781597647,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1189,11 +1912,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 20.0564440066
+                "applied_joint_motor_torque": 20.031626904
             },
             "joint_4": {
-                "joint_position": 3.0351e-06,
-                "joint_velocity": 0.000125955,
+                "joint_position": 6.5756e-06,
+                "joint_velocity": -2.3179e-06,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1202,11 +1925,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.919994121
+                "applied_joint_motor_torque": 0.9383213877
             },
             "joint_5": {
-                "joint_position": 2.3561998904,
-                "joint_velocity": -0.0001415759,
+                "joint_position": 2.3561945591,
+                "joint_velocity": -3.102e-07,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1215,11 +1938,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 1.7124920718
+                "applied_joint_motor_torque": 1.7085410365
             },
             "joint_6": {
-                "joint_position": 2.9671006659,
-                "joint_velocity": -3.99555e-05,
+                "joint_position": 0.9832232127,
+                "joint_velocity": -0.2273326543,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1228,7 +1951,7 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.017851317
+                "applied_joint_motor_torque": 0.0272585071
             },
             "joint_7": {
                 "joint_position": 0.0,
@@ -1257,8 +1980,8 @@
                 "applied_joint_motor_torque": 0.0
             },
             "joint_9": {
-                "joint_position": 0.0397827633,
-                "joint_velocity": 0.0058859216,
+                "joint_position": 0.0397722659,
+                "joint_velocity": 0.0061051644,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1267,11 +1990,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.0324513574
+                "applied_joint_motor_torque": -0.0044636051
             },
             "joint_10": {
-                "joint_position": 0.0397810689,
-                "joint_velocity": 0.0057489619,
+                "joint_position": 0.0397695783,
+                "joint_velocity": 0.0061113703,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1280,18 +2003,18 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": -0.0634232114
+                "applied_joint_motor_torque": -0.0286912658
             },
             "link_state": [
-                0.7202559002,
-                -6.6051e-06,
-                0.0312076783
+                0.7202373444,
+                -1.78554e-05,
+                0.0311906361
             ]
         },
         "post_grasp_robot_coordinates": {
             "joint_0": {
-                "joint_position": 1.8216e-06,
-                "joint_velocity": 4.349e-07,
+                "joint_position": -3.6898e-06,
+                "joint_velocity": 1.03636e-05,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1300,11 +2023,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.0005859243
+                "applied_joint_motor_torque": 0.0414357598
             },
             "joint_1": {
-                "joint_position": 0.9353493551,
-                "joint_velocity": 0.0012593536,
+                "joint_position": 0.9353559914,
+                "joint_velocity": 0.0012482784,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1313,11 +2036,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": -46.5307692491
+                "applied_joint_motor_torque": -37.5124436399
             },
             "joint_2": {
-                "joint_position": -1.74894e-05,
-                "joint_velocity": -1.2083e-06,
+                "joint_position": -0.0001764613,
+                "joint_velocity": -0.0001037586,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1326,11 +2049,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.7958268435
+                "applied_joint_motor_torque": 0.9127611127
             },
             "joint_3": {
-                "joint_position": -1.420871977,
-                "joint_velocity": 0.0012538063,
+                "joint_position": -1.4207084707,
+                "joint_velocity": 0.0011016372,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1339,11 +2062,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 18.1110778736
+                "applied_joint_motor_torque": 12.4643393063
             },
             "joint_4": {
-                "joint_position": 6.9707e-06,
-                "joint_velocity": 2.751e-07,
+                "joint_position": -3.43719e-05,
+                "joint_velocity": 0.0001079681,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1352,11 +2075,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.8490302748
+                "applied_joint_motor_torque": 1.0459775738
             },
             "joint_5": {
-                "joint_position": 2.3561945802,
-                "joint_velocity": -9.681e-07,
+                "joint_position": 2.3562478985,
+                "joint_velocity": 2.69607e-05,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1365,11 +2088,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 1.5856833139
+                "applied_joint_motor_torque": 0.2645608491
             },
             "joint_6": {
-                "joint_position": 2.9671,
-                "joint_velocity": -6e-10,
+                "joint_position": 0.9748500307,
+                "joint_velocity": -0.0013415647,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1378,7 +2101,7 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.0156248532
+                "applied_joint_motor_torque": 0.2271498891
             },
             "joint_7": {
                 "joint_position": 0.0,
@@ -1407,8 +2130,8 @@
                 "applied_joint_motor_torque": 0.0
             },
             "joint_9": {
-                "joint_position": 0.0002845295,
-                "joint_velocity": -0.0074994197,
+                "joint_position": 0.0213451097,
+                "joint_velocity": -0.0010099051,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1417,11 +2140,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.0203097117
+                "applied_joint_motor_torque": -200.0
             },
             "joint_10": {
-                "joint_position": 0.0002780842,
-                "joint_velocity": -0.0075000879,
+                "joint_position": 0.0260777977,
+                "joint_velocity": 0.0006133855,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1430,200 +2153,2404 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.0196217485
+                "applied_joint_motor_torque": -200.0
             },
             "link_state": [
-                0.7211389699,
-                -9.8387e-06,
-                0.0289589506
+                0.7212179973,
+                -0.0001241613,
+                0.0290274158
             ]
         },
-        "contact_points_joint_9": [
+        "contact_points_left_finger": [
             {
                 "position_on_A": [
-                    0.7044332529,
-                    0.0006750836,
-                    0.0292384294
+                    0.7064257655,
+                    -0.0248495567,
+                    0.0338577444
                 ],
                 "position_on_B": [
-                    0.7045444534,
-                    -0.0002325236,
-                    0.029247812
+                    0.7064193272,
+                    -0.0257348926,
+                    0.0338569923
                 ],
                 "contact_normal_on_B": [
-                    0.1216046988,
-                    -0.9925255771,
-                    0.0102604147
+                    0.0072720427,
+                    0.9999731975,
+                    0.0008494853
                 ],
-                "contact_distance": -0.0009144421,
-                "Normal_force": 4.8531945572
+                "contact_distance": 0.0008853596,
+                "Normal_force": 144.1588600367
             },
             {
                 "position_on_A": [
-                    0.7052363765,
-                    -8.42426e-05,
-                    0.0347538798
+                    0.7069773037,
+                    -0.0244571715,
+                    0.03368708
                 ],
                 "position_on_B": [
-                    0.7053891205,
-                    -0.0010072135,
-                    0.034765982
+                    0.7071636015,
+                    -0.0230635566,
+                    0.0336895855
                 ],
                 "contact_normal_on_B": [
-                    0.1632573317,
-                    -0.9864987202,
-                    0.0129351749
+                    0.132500721,
+                    0.991181307,
+                    0.0017819954
                 ],
-                "contact_distance": -0.0009356027,
-                "Normal_force": 0.3868829547
-            },
-            {
-                "position_on_A": [
-                    0.7060507107,
-                    -0.0011022902,
-                    0.0368162122
-                ],
-                "position_on_B": [
-                    0.7059121594,
-                    -0.0017062673,
-                    0.036808721
-                ],
-                "contact_normal_on_B": [
-                    -0.223574251,
-                    -0.9746119383,
-                    -0.0120881791
-                ],
-                "contact_distance": -0.0006197103,
-                "Normal_force": 0.0
-            },
-            {
-                "position_on_A": [
-                    0.7069359629,
-                    -0.0027575084,
-                    0.0333340137
-                ],
-                "position_on_B": [
-                    0.7070433179,
-                    -0.0023512446,
-                    0.0333399672
-                ],
-                "contact_normal_on_B": [
-                    -0.2554545154,
-                    -0.9667172788,
-                    -0.0141666333
-                ],
-                "contact_distance": 0.0004202508,
-                "Normal_force": 0.0
+                "contact_distance": -0.0014060141,
+                "Normal_force": 202.6758636154
             }
         ],
-        "contact_points_joint_10": [
+        "contact_points_right_finger": [
             {
                 "position_on_A": [
-                    0.7377054179,
-                    -0.0238034852,
-                    0.0351008557
+                    0.7336898562,
+                    0.0268014628,
+                    0.0329951982
                 ],
                 "position_on_B": [
-                    0.7383068883,
-                    -0.0237794792,
-                    0.0351024465
+                    0.7335373678,
+                    0.0258988894,
+                    0.0329941005
                 ],
                 "contact_normal_on_B": [
-                    -0.9992009683,
-                    -0.0398803307,
-                    -0.0026427767
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
                 ],
-                "contact_distance": 0.0006019514,
-                "Normal_force": 7.7633259696
+                "contact_distance": -0.0009153648,
+                "Normal_force": 141.0909504753
             },
             {
                 "position_on_A": [
-                    0.735990976,
-                    -0.0221458495,
-                    0.0356673277
+                    0.7330139742,
+                    0.024372633,
+                    0.032861665
                 ],
                 "position_on_B": [
-                    0.7359894159,
-                    -0.0221459494,
-                    0.0356673233
+                    0.7330524445,
+                    0.023173791,
+                    0.0328526759
                 ],
                 "contact_normal_on_B": [
-                    -0.9979507436,
-                    -0.0639249422,
-                    -0.0028133638
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
                 ],
-                "contact_distance": -1.5633e-06,
-                "Normal_force": 1.9206744717
+                "contact_distance": -0.0011756914,
+                "Normal_force": 133.0662920733
             },
             {
                 "position_on_A": [
-                    0.7338884178,
-                    -0.0206818034,
-                    0.0358565122
+                    0.730455749,
+                    0.0251061438,
+                    0.0354185558
                 ],
                 "position_on_B": [
-                    0.7339051686,
-                    -0.0206802398,
-                    0.035856563
+                    0.7301901762,
+                    0.0237336782,
+                    0.0354232218
                 ],
                 "contact_normal_on_B": [
-                    -0.9956669337,
-                    -0.092942192,
-                    -0.0030176117
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
                 ],
-                "contact_distance": 1.68237e-05,
-                "Normal_force": 0.0
+                "contact_distance": -0.0013979315,
+                "Normal_force": 63.324625814
             },
             {
                 "position_on_A": [
-                    0.7317992359,
-                    -0.019672186,
-                    0.0357135526
+                    0.7320491814,
+                    0.0217032006,
+                    0.0327557933
                 ],
                 "position_on_B": [
-                    0.732028134,
-                    -0.0193328216,
-                    0.0357361555
+                    0.7326651169,
+                    0.0209633969,
+                    0.0327284268
                 ],
                 "contact_normal_on_B": [
-                    -0.9956669337,
-                    -0.092942192,
-                    -0.0030176117
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
                 ],
-                "contact_distance": 0.0002595158,
-                "Normal_force": 0.0
+                "contact_distance": -0.0006268913,
+                "Normal_force": 120.0295083479
             },
             {
                 "position_on_A": [
-                    0.7296922075,
-                    -0.0186580468,
-                    0.0354636383
+                    0.7296461847,
+                    0.0228547816,
+                    0.0353091662
                 ],
                 "position_on_B": [
-                    0.7303387685,
-                    -0.018120133,
-                    0.0356277843
+                    0.7298024487,
+                    0.0215215653,
+                    0.0352989012
                 ],
                 "contact_normal_on_B": [
-                    -0.9956669337,
-                    -0.092942192,
-                    -0.0030176117
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
                 ],
-                "contact_distance": 0.0006942497,
-                "Normal_force": 0.0
+                "contact_distance": -0.0012792087,
+                "Normal_force": 40.3067415807
+            },
+            {
+                "position_on_A": [
+                    0.732239527,
+                    0.0220634903,
+                    0.0326096574
+                ],
+                "position_on_B": [
+                    0.7327957013,
+                    0.0214090085,
+                    0.0326151117
+                ],
+                "contact_normal_on_B": [
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
+                ],
+                "contact_distance": -0.0005526777,
+                "Normal_force": 136.2616515512
+            },
+            {
+                "position_on_A": [
+                    0.7298430559,
+                    0.0232165063,
+                    0.0351685097
+                ],
+                "position_on_B": [
+                    0.7299327247,
+                    0.0219657703,
+                    0.0351855478
+                ],
+                "contact_normal_on_B": [
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
+                ],
+                "contact_distance": -0.0012109734,
+                "Normal_force": 40.5015177668
+            },
+            {
+                "position_on_A": [
+                    0.7323525746,
+                    0.0222698088,
+                    0.0324926353
+                ],
+                "position_on_B": [
+                    0.7329125547,
+                    0.0217928088,
+                    0.0325132413
+                ],
+                "contact_normal_on_B": [
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
+                ],
+                "contact_distance": -0.0003770239,
+                "Normal_force": 135.8723582821
+            },
+            {
+                "position_on_A": [
+                    0.7299604411,
+                    0.0234213978,
+                    0.0350561845
+                ],
+                "position_on_B": [
+                    0.7300493014,
+                    0.0223483721,
+                    0.0350836285
+                ],
+                "contact_normal_on_B": [
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
+                ],
+                "contact_distance": -0.0010366889,
+                "Normal_force": 40.4358245577
+            },
+            {
+                "position_on_A": [
+                    0.7324176281,
+                    0.0223106239,
+                    0.0323805517
+                ],
+                "position_on_B": [
+                    0.7329894499,
+                    0.0219900055,
+                    0.032423374
+                ],
+                "contact_normal_on_B": [
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
+                ],
+                "contact_distance": -0.0002208284,
+                "Normal_force": 136.5607419529
+            },
+            {
+                "position_on_A": [
+                    0.7300312171,
+                    0.0234604696,
+                    0.0349502096
+                ],
+                "position_on_B": [
+                    0.7301259391,
+                    0.0225444779,
+                    0.0349937099
+                ],
+                "contact_normal_on_B": [
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
+                ],
+                "contact_distance": -0.0008814556,
+                "Normal_force": 40.4466362498
+            },
+            {
+                "position_on_A": [
+                    0.7324544463,
+                    0.0223012509,
+                    0.0322786697
+                ],
+                "position_on_B": [
+                    0.7330439065,
+                    0.0221082561,
+                    0.0323409648
+                ],
+                "contact_normal_on_B": [
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
+                ],
+                "contact_distance": -9.20264e-05,
+                "Normal_force": 136.9041585465
+            },
+            {
+                "position_on_A": [
+                    0.7300736523,
+                    0.0234486059,
+                    0.0348546435
+                ],
+                "position_on_B": [
+                    0.7301801809,
+                    0.0226617261,
+                    0.0349112775
+                ],
+                "contact_normal_on_B": [
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
+                ],
+                "contact_distance": -0.0007524965,
+                "Normal_force": 40.4542713886
+            },
+            {
+                "position_on_A": [
+                    0.7324886854,
+                    0.0222887482,
+                    0.0321895924
+                ],
+                "position_on_B": [
+                    0.7330918057,
+                    0.022209866,
+                    0.0322667341
+                ],
+                "contact_normal_on_B": [
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
+                ],
+                "contact_distance": 2.2785e-05,
+                "Normal_force": 134.8591742878
+            },
+            {
+                "position_on_A": [
+                    0.7301129909,
+                    0.0234339299,
+                    0.0347712351
+                ],
+                "position_on_B": [
+                    0.7302278836,
+                    0.0227624281,
+                    0.0348370231
+                ],
+                "contact_normal_on_B": [
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
+                ],
+                "contact_distance": -0.0006376619,
+                "Normal_force": 42.306882877
+            },
+            {
+                "position_on_A": [
+                    0.7325189088,
+                    0.0222821224,
+                    0.0321105383
+                ],
+                "position_on_B": [
+                    0.7331348011,
+                    0.022301766,
+                    0.0321996646
+                ],
+                "contact_normal_on_B": [
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
+                ],
+                "contact_distance": 0.000122076,
+                "Normal_force": 128.5306745131
+            },
+            {
+                "position_on_A": [
+                    0.7301479204,
+                    0.0234251574,
+                    0.0346974533
+                ],
+                "position_on_B": [
+                    0.7302707027,
+                    0.0228535125,
+                    0.0347699324
+                ],
+                "contact_normal_on_B": [
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
+                ],
+                "contact_distance": -0.0005381477,
+                "Normal_force": 47.9108456372
+            },
+            {
+                "position_on_A": [
+                    0.7173765644,
+                    0.0272208865,
+                    0.0347473375
+                ],
+                "position_on_B": [
+                    0.7167241325,
+                    0.0258916677,
+                    0.0347664507
+                ],
+                "contact_normal_on_B": [
+                    -0.2846535893,
+                    -0.9572922512,
+                    0.0506347704
+                ],
+                "contact_distance": -0.0014591357,
+                "Normal_force": 24.1839648375
+            },
+            {
+                "position_on_A": [
+                    0.7325449871,
+                    0.0222815329,
+                    0.0320398822
+                ],
+                "position_on_B": [
+                    0.7331735368,
+                    0.0223844808,
+                    0.0321391353
+                ],
+                "contact_normal_on_B": [
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
+                ],
+                "contact_distance": 0.0002063368,
+                "Normal_force": 123.1334300871
+            },
+            {
+                "position_on_A": [
+                    0.7301782828,
+                    0.0234223947,
+                    0.0346316749
+                ],
+                "position_on_B": [
+                    0.730309279,
+                    0.0229354971,
+                    0.034709382
+                ],
+                "contact_normal_on_B": [
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
+                ],
+                "contact_distance": -0.0004534012,
+                "Normal_force": 52.6697718017
+            },
+            {
+                "position_on_A": [
+                    0.7174059185,
+                    0.0272143193,
+                    0.0347065122
+                ],
+                "position_on_B": [
+                    0.716761909,
+                    0.0259700842,
+                    0.0347057968
+                ],
+                "contact_normal_on_B": [
+                    -0.2846535893,
+                    -0.9572922512,
+                    0.0506347704
+                ],
+                "contact_distance": -0.00137438,
+                "Normal_force": 24.8682164029
+            },
+            {
+                "position_on_A": [
+                    0.7325679998,
+                    0.0222836639,
+                    0.0319760771
+                ],
+                "position_on_B": [
+                    0.7332083999,
+                    0.022458293,
+                    0.0320845652
+                ],
+                "contact_normal_on_B": [
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
+                ],
+                "contact_distance": 0.0002790016,
+                "Normal_force": 118.4613828792
+            },
+            {
+                "position_on_A": [
+                    0.7302052286,
+                    0.0234224854,
+                    0.0345723519
+                ],
+                "position_on_B": [
+                    0.7303439972,
+                    0.0230086557,
+                    0.0346547906
+                ],
+                "contact_normal_on_B": [
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
+                ],
+                "contact_distance": -0.0003802036,
+                "Normal_force": 56.775377296
+            },
+            {
+                "position_on_A": [
+                    0.7174317467,
+                    0.0272101173,
+                    0.0346702549
+                ],
+                "position_on_B": [
+                    0.7167959108,
+                    0.0260400425,
+                    0.0346511002
+                ],
+                "contact_normal_on_B": [
+                    -0.2846535893,
+                    -0.9572922512,
+                    0.0506347704
+                ],
+                "contact_distance": -0.0013001266,
+                "Normal_force": 25.4762047818
+            },
+            {
+                "position_on_A": [
+                    0.7325885435,
+                    0.0222876636,
+                    0.0319183602
+                ],
+                "position_on_B": [
+                    0.7332398148,
+                    0.0225240815,
+                    0.0320354117
+                ],
+                "contact_normal_on_B": [
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
+                ],
+                "contact_distance": 0.0003417482,
+                "Normal_force": 114.4101563106
+            },
+            {
+                "position_on_A": [
+                    0.7302294013,
+                    0.0234245891,
+                    0.0345187626
+                ],
+                "position_on_B": [
+                    0.73037528,
+                    0.0230738589,
+                    0.034605615
+                ],
+                "contact_normal_on_B": [
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
+                ],
+                "contact_distance": -0.0003169175,
+                "Normal_force": 60.3223556859
+            },
+            {
+                "position_on_A": [
+                    0.7174547598,
+                    0.0272076953,
+                    0.0346380245
+                ],
+                "position_on_B": [
+                    0.7168265517,
+                    0.026102375,
+                    0.0346018173
+                ],
+                "contact_normal_on_B": [
+                    -0.2846535893,
+                    -0.9572922512,
+                    0.0506347704
+                ],
+                "contact_distance": -0.001235103,
+                "Normal_force": 26.0156514359
+            },
+            {
+                "position_on_A": [
+                    0.7326070806,
+                    0.0222929119,
+                    0.0318660398
+                ],
+                "position_on_B": [
+                    0.733268169,
+                    0.0225827358,
+                    0.0319911691
+                ],
+                "contact_normal_on_B": [
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
+                ],
+                "contact_distance": 0.000396053,
+                "Normal_force": 110.8867362697
+            },
+            {
+                "position_on_A": [
+                    0.7302513023,
+                    0.0234280939,
+                    0.0344702508
+                ],
+                "position_on_B": [
+                    0.7304035135,
+                    0.0231319891,
+                    0.0345613501
+                ],
+                "contact_normal_on_B": [
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
+                ],
+                "contact_distance": -0.0002620983,
+                "Normal_force": 63.3931667719
+            },
+            {
+                "position_on_A": [
+                    0.7174755077,
+                    0.0272066271,
+                    0.0346093224
+                ],
+                "position_on_B": [
+                    0.7168542098,
+                    0.0261579298,
+                    0.0345574427
+                ],
+                "contact_normal_on_B": [
+                    -0.2846535893,
+                    -0.9572922512,
+                    0.0506347704
+                ],
+                "contact_distance": -0.0011781376,
+                "Normal_force": 26.4964280698
+            },
+            {
+                "position_on_A": [
+                    0.7326239578,
+                    0.0222988932,
+                    0.0318186113
+                ],
+                "position_on_B": [
+                    0.73329377,
+                    0.0226348866,
+                    0.0319513729
+                ],
+                "contact_normal_on_B": [
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
+                ],
+                "contact_distance": 0.0004430397,
+                "Normal_force": 107.8312688744
+            },
+            {
+                "position_on_A": [
+                    0.7302713067,
+                    0.0234324763,
+                    0.0344263434
+                ],
+                "position_on_B": [
+                    0.730429004,
+                    0.0231836707,
+                    0.0345215309
+                ],
+                "contact_normal_on_B": [
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
+                ],
+                "contact_distance": -0.0002146322,
+                "Normal_force": 66.051886547
+            },
+            {
+                "position_on_A": [
+                    0.7174943971,
+                    0.0272065147,
+                    0.0345838128
+                ],
+                "position_on_B": [
+                    0.7168791845,
+                    0.0262073007,
+                    0.0345175118
+                ],
+                "contact_normal_on_B": [
+                    -0.2846535893,
+                    -0.9572922512,
+                    0.0506347704
+                ],
+                "contact_distance": -0.0011283051,
+                "Normal_force": 26.9183672855
+            },
+            {
+                "position_on_A": [
+                    0.7326394508,
+                    0.0223052825,
+                    0.0317755443
+                ],
+                "position_on_B": [
+                    0.7333169323,
+                    0.0226813641,
+                    0.031915593
+                ],
+                "contact_normal_on_B": [
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
+                ],
+                "contact_distance": 0.0004838542,
+                "Normal_force": 105.1725736311
+            },
+            {
+                "position_on_A": [
+                    0.7302897166,
+                    0.0234374133,
+                    0.0343865352
+                ],
+                "position_on_B": [
+                    0.730452065,
+                    0.0232297281,
+                    0.0344857277
+                ],
+                "contact_normal_on_B": [
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
+                ],
+                "contact_distance": -0.0001733906,
+                "Normal_force": 68.362747377
+            },
+            {
+                "position_on_A": [
+                    0.7175117526,
+                    0.0272071272,
+                    0.0345611073
+                ],
+                "position_on_B": [
+                    0.716901783,
+                    0.0262512849,
+                    0.0344815953
+                ],
+                "contact_normal_on_B": [
+                    -0.2846535893,
+                    -0.9572922512,
+                    0.0506347704
+                ],
+                "contact_distance": -0.0010846244,
+                "Normal_force": 27.2870782868
+            },
+            {
+                "position_on_A": [
+                    0.7326537635,
+                    0.0223118101,
+                    0.0317364405
+                ],
+                "position_on_B": [
+                    0.733337914,
+                    0.0227228019,
+                    0.0318834377
+                ],
+                "contact_normal_on_B": [
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
+                ],
+                "contact_distance": 0.0005193958,
+                "Normal_force": 102.431323634
+            },
+            {
+                "position_on_A": [
+                    0.7303067554,
+                    0.0234426268,
+                    0.034350451
+                ],
+                "position_on_B": [
+                    0.7304729535,
+                    0.0232707898,
+                    0.0344535488
+                ],
+                "contact_normal_on_B": [
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
+                ],
+                "contact_distance": -0.0001374772,
+                "Normal_force": 70.3307054573
+            },
+            {
+                "position_on_A": [
+                    0.7172124188,
+                    0.0273011875,
+                    0.0345472481
+                ],
+                "position_on_B": [
+                    0.7169183266,
+                    0.0262996362,
+                    0.0346002878
+                ],
+                "contact_normal_on_B": [
+                    -0.2813785951,
+                    -0.9582540641,
+                    0.0507467708
+                ],
+                "contact_distance": -0.0010451835,
+                "Normal_force": 27.9000948822
+            },
+            {
+                "position_on_A": [
+                    0.7326683743,
+                    0.0223227559,
+                    0.0316919442
+                ],
+                "position_on_B": [
+                    0.7333590009,
+                    0.0227647217,
+                    0.0318556465
+                ],
+                "contact_normal_on_B": [
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
+                ],
+                "contact_distance": 0.0005510359,
+                "Normal_force": 100.3247740323
+            },
+            {
+                "position_on_A": [
+                    0.7303241626,
+                    0.0234528555,
+                    0.0343087726
+                ],
+                "position_on_B": [
+                    0.7304939471,
+                    0.0233123687,
+                    0.0344257262
+                ],
+                "contact_normal_on_B": [
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
+                ],
+                "contact_distance": -0.0001060631,
+                "Normal_force": 72.1287883211
+            },
+            {
+                "position_on_A": [
+                    0.7172288322,
+                    0.0273072046,
+                    0.0345213368
+                ],
+                "position_on_B": [
+                    0.7169389396,
+                    0.0263395193,
+                    0.0345723134
+                ],
+                "contact_normal_on_B": [
+                    -0.2813785951,
+                    -0.9582540641,
+                    0.0507467708
+                ],
+                "contact_distance": -0.0010114449,
+                "Normal_force": 28.1874322165
+            },
+            {
+                "position_on_A": [
+                    0.7326815658,
+                    0.0223320942,
+                    0.0316505381
+                ],
+                "position_on_B": [
+                    0.7333780331,
+                    0.0228022605,
+                    0.0318306153
+                ],
+                "contact_normal_on_B": [
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
+                ],
+                "contact_distance": 0.0005798349,
+                "Normal_force": 98.4263352405
+            },
+            {
+                "position_on_A": [
+                    0.7303400421,
+                    0.0234616357,
+                    0.0342700127
+                ],
+                "position_on_B": [
+                    0.7305128947,
+                    0.0233496026,
+                    0.0344006657
+                ],
+                "contact_normal_on_B": [
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
+                ],
+                "contact_distance": -7.75905e-05,
+                "Normal_force": 73.7645326842
+            },
+            {
+                "position_on_A": [
+                    0.7172438808,
+                    0.0273123104,
+                    0.0344974629
+                ],
+                "position_on_B": [
+                    0.7169575462,
+                    0.0263752327,
+                    0.0345471113
+                ],
+                "contact_normal_on_B": [
+                    -0.2813785951,
+                    -0.9582540641,
+                    0.0507467708
+                ],
+                "contact_distance": -0.0009810464,
+                "Normal_force": 28.4497081666
+            },
+            {
+                "position_on_A": [
+                    0.7326925999,
+                    0.0223394737,
+                    0.0316121396
+                ],
+                "position_on_B": [
+                    0.7333946896,
+                    0.0228341711,
+                    0.0318079594
+                ],
+                "contact_normal_on_B": [
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
+                ],
+                "contact_distance": 0.0006049788,
+                "Normal_force": 96.777126986
+            },
+            {
+                "position_on_A": [
+                    0.7303536683,
+                    0.0234684929,
+                    0.0342341539
+                ],
+                "position_on_B": [
+                    0.730529476,
+                    0.0233812401,
+                    0.0343779842
+                ],
+                "contact_normal_on_B": [
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
+                ],
+                "contact_distance": -5.27443e-05,
+                "Normal_force": 75.1933996706
+            },
+            {
+                "position_on_A": [
+                    0.7172567874,
+                    0.0273158489,
+                    0.0344758845
+                ],
+                "position_on_B": [
+                    0.716973822,
+                    0.0264055068,
+                    0.0345243061
+                ],
+                "contact_normal_on_B": [
+                    -0.2813785951,
+                    -0.9582540641,
+                    0.0507467708
+                ],
+                "contact_distance": -0.0009544167,
+                "Normal_force": 28.679714837
+            },
+            {
+                "position_on_A": [
+                    0.7327017213,
+                    0.0223453588,
+                    0.031576571
+                ],
+                "position_on_B": [
+                    0.7334092255,
+                    0.0228611644,
+                    0.0317874456
+                ],
+                "contact_normal_on_B": [
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
+                ],
+                "contact_distance": 0.000626712,
+                "Normal_force": 95.3580150424
+            },
+            {
+                "position_on_A": [
+                    0.7303652866,
+                    0.023473873,
+                    0.0342010278
+                ],
+                "position_on_B": [
+                    0.7305439452,
+                    0.0234079883,
+                    0.0343574482
+                ],
+                "contact_normal_on_B": [
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
+                ],
+                "contact_distance": -3.12658e-05,
+                "Normal_force": 76.4297476154
+            },
+            {
+                "position_on_A": [
+                    0.7172677768,
+                    0.0273182003,
+                    0.0344564769
+                ],
+                "position_on_B": [
+                    0.7169880173,
+                    0.026431032,
+                    0.0345036629
+                ],
+                "contact_normal_on_B": [
+                    -0.2813785951,
+                    -0.9582540641,
+                    0.0507467708
+                ],
+                "contact_distance": -0.0009312455,
+                "Normal_force": 28.8787689481
+            },
+            {
+                "position_on_A": [
+                    0.7327096667,
+                    0.0223508583,
+                    0.0315434984
+                ],
+                "position_on_B": [
+                    0.7334221957,
+                    0.0228852863,
+                    0.0317688847
+                ],
+                "contact_normal_on_B": [
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
+                ],
+                "contact_distance": 0.0006459287,
+                "Normal_force": 94.0889045478
+            },
+            {
+                "position_on_A": [
+                    0.7303756344,
+                    0.0234789261,
+                    0.0341702837
+                ],
+                "position_on_B": [
+                    0.7305568559,
+                    0.0234318903,
+                    0.0343388677
+                ],
+                "contact_normal_on_B": [
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
+                ],
+                "contact_distance": -1.2314e-05,
+                "Normal_force": 77.5231430578
+            },
+            {
+                "position_on_A": [
+                    0.717277587,
+                    0.0273205279,
+                    0.0344388314
+                ],
+                "position_on_B": [
+                    0.7170006822,
+                    0.0264538365,
+                    0.0344849877
+                ],
+                "contact_normal_on_B": [
+                    -0.2813785951,
+                    -0.9582540641,
+                    0.0507467708
+                ],
+                "contact_distance": -0.0009107679,
+                "Normal_force": 29.0541719903
+            },
+            {
+                "position_on_A": [
+                    0.7327161474,
+                    0.0223554704,
+                    0.031512711
+                ],
+                "position_on_B": [
+                    0.7334335432,
+                    0.0229059079,
+                    0.0317520606
+                ],
+                "contact_normal_on_B": [
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
+                ],
+                "contact_distance": 0.0006625419,
+                "Normal_force": 93.085344354
+            },
+            {
+                "position_on_A": [
+                    0.7303844347,
+                    0.0234831107,
+                    0.0341417389
+                ],
+                "position_on_B": [
+                    0.7305681509,
+                    0.0234523147,
+                    0.0343220269
+                ],
+                "contact_normal_on_B": [
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
+                ],
+                "contact_distance": 4.0649e-06,
+                "Normal_force": 77.5062412545
+            },
+            {
+                "position_on_A": [
+                    0.7172859221,
+                    0.0273222239,
+                    0.0344228931
+                ],
+                "position_on_B": [
+                    0.717011757,
+                    0.0264732771,
+                    0.0344680659
+                ],
+                "contact_normal_on_B": [
+                    -0.2813785951,
+                    -0.9582540641,
+                    0.0507467708
+                ],
+                "contact_distance": -0.0008929433,
+                "Normal_force": 30.0766971155
+            },
+            {
+                "position_on_A": [
+                    0.7327216359,
+                    0.0223596752,
+                    0.0314837448
+                ],
+                "position_on_B": [
+                    0.7334430021,
+                    0.0229212877,
+                    0.0317367806
+                ],
+                "contact_normal_on_B": [
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
+                ],
+                "contact_distance": 0.0006742385,
+                "Normal_force": 92.4047825138
+            },
+            {
+                "position_on_A": [
+                    0.7303921737,
+                    0.0234869145,
+                    0.0341149389
+                ],
+                "position_on_B": [
+                    0.7305775635,
+                    0.0234675178,
+                    0.0343067329
+                ],
+                "contact_normal_on_B": [
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
+                ],
+                "contact_distance": 1.5536e-05,
+                "Normal_force": 77.3914461341
+            },
+            {
+                "position_on_A": [
+                    0.7172932578,
+                    0.0273237397,
+                    0.0344082734
+                ],
+                "position_on_B": [
+                    0.7170209726,
+                    0.0264875987,
+                    0.0344527043
+                ],
+                "contact_normal_on_B": [
+                    -0.2813785951,
+                    -0.9582540641,
+                    0.0507467708
+                ],
+                "contact_distance": -0.0008801055,
+                "Normal_force": 30.8960106497
+            },
+            {
+                "position_on_A": [
+                    0.7327268583,
+                    0.0223640472,
+                    0.0314563449
+                ],
+                "position_on_B": [
+                    0.7334512415,
+                    0.0229340345,
+                    0.031722939
+                ],
+                "contact_normal_on_B": [
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
+                ],
+                "contact_distance": 0.0006830151,
+                "Normal_force": 91.8730446332
+            },
+            {
+                "position_on_A": [
+                    0.730399572,
+                    0.0234909876,
+                    0.0340895917
+                ],
+                "position_on_B": [
+                    0.7305857617,
+                    0.0234801061,
+                    0.034292879
+                ],
+                "contact_normal_on_B": [
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
+                ],
+                "contact_distance": 2.40097e-05,
+                "Normal_force": 77.3179835742
+            },
+            {
+                "position_on_A": [
+                    0.7173003323,
+                    0.0273258016,
+                    0.0343945317
+                ],
+                "position_on_B": [
+                    0.7170289939,
+                    0.026499396,
+                    0.0344387907
+                ],
+                "contact_normal_on_B": [
+                    -0.2813785951,
+                    -0.9582540641,
+                    0.0507467708
+                ],
+                "contact_distance": -0.0008705014,
+                "Normal_force": 31.5038268579
+            },
+            {
+                "position_on_A": [
+                    0.7327300259,
+                    0.0223687684,
+                    0.03143089
+                ],
+                "position_on_B": [
+                    0.7334574111,
+                    0.0229438317,
+                    0.0317096742
+                ],
+                "contact_normal_on_B": [
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
+                ],
+                "contact_distance": 0.000688535,
+                "Normal_force": 91.5367077328
+            },
+            {
+                "position_on_A": [
+                    0.7304046499,
+                    0.0234954318,
+                    0.0340659423
+                ],
+                "position_on_B": [
+                    0.7305919014,
+                    0.0234897615,
+                    0.034279611
+                ],
+                "contact_normal_on_B": [
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
+                ],
+                "contact_distance": 2.9293e-05,
+                "Normal_force": 77.2765859988
+            },
+            {
+                "position_on_A": [
+                    0.7173050837,
+                    0.0273283027,
+                    0.0343811151
+                ],
+                "position_on_B": [
+                    0.7170349763,
+                    0.026508346,
+                    0.0344255065
+                ],
+                "contact_normal_on_B": [
+                    -0.2813785951,
+                    -0.9582540641,
+                    0.0507467708
+                ],
+                "contact_distance": -0.000863982,
+                "Normal_force": 31.885354226
+            },
+            {
+                "position_on_A": [
+                    0.7327324768,
+                    0.0223726764,
+                    0.0314071459
+                ],
+                "position_on_B": [
+                    0.7334625703,
+                    0.0229508541,
+                    0.0316976853
+                ],
+                "contact_normal_on_B": [
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
+                ],
+                "contact_distance": 0.000692071,
+                "Normal_force": 91.3188076651
+            },
+            {
+                "position_on_A": [
+                    0.7304089712,
+                    0.0234990606,
+                    0.0340439668
+                ],
+                "position_on_B": [
+                    0.7305970343,
+                    0.0234966568,
+                    0.0342676197
+                ],
+                "contact_normal_on_B": [
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
+                ],
+                "contact_distance": 3.26208e-05,
+                "Normal_force": 77.2558731061
+            },
+            {
+                "position_on_A": [
+                    0.7173091405,
+                    0.0273301925,
+                    0.0343691359
+                ],
+                "position_on_B": [
+                    0.7170399685,
+                    0.0265146096,
+                    0.0344135026
+                ],
+                "contact_normal_on_B": [
+                    -0.2813785951,
+                    -0.9582540641,
+                    0.0507467708
+                ],
+                "contact_distance": -0.0008595264,
+                "Normal_force": 32.1283612326
+            },
+            {
+                "position_on_A": [
+                    0.7327342773,
+                    0.022376013,
+                    0.0313849539
+                ],
+                "position_on_B": [
+                    0.7334669252,
+                    0.0229559433,
+                    0.0316868484
+                ],
+                "contact_normal_on_B": [
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
+                ],
+                "contact_distance": 0.0006942384,
+                "Normal_force": 91.1807684909
+            },
+            {
+                "position_on_A": [
+                    0.7304126032,
+                    0.023502118,
+                    0.0340235069
+                ],
+                "position_on_B": [
+                    0.7306013658,
+                    0.023501632,
+                    0.0342567811
+                ],
+                "contact_normal_on_B": [
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
+                ],
+                "contact_distance": 3.46045e-05,
+                "Normal_force": 77.2493088584
+            },
+            {
+                "position_on_A": [
+                    0.7173125604,
+                    0.0273316824,
+                    0.0343584435
+                ],
+                "position_on_B": [
+                    0.7170441739,
+                    0.0265190186,
+                    0.0344026547
+                ],
+                "contact_normal_on_B": [
+                    -0.2813785951,
+                    -0.9582540641,
+                    0.0507467708
+                ],
+                "contact_distance": -0.0008565002,
+                "Normal_force": 32.2749069952
+            },
+            {
+                "position_on_A": [
+                    0.7327354928,
+                    0.0223790324,
+                    0.031364144
+                ],
+                "position_on_B": [
+                    0.7334706447,
+                    0.0229597704,
+                    0.0316770478
+                ],
+                "contact_normal_on_B": [
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
+                ],
+                "contact_distance": 0.0006954651,
+                "Normal_force": 91.0976793648
+            },
+            {
+                "position_on_A": [
+                    0.7304156144,
+                    0.0235048597,
+                    0.0340043942
+                ],
+                "position_on_B": [
+                    0.7306050648,
+                    0.0235053567,
+                    0.0342469793
+                ],
+                "contact_normal_on_B": [
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
+                ],
+                "contact_distance": 3.56692e-05,
+                "Normal_force": 77.2520969728
+            },
+            {
+                "position_on_A": [
+                    0.7173154028,
+                    0.0273329989,
+                    0.034348887
+                ],
+                "position_on_B": [
+                    0.7170477598,
+                    0.0265222354,
+                    0.0343928468
+                ],
+                "contact_normal_on_B": [
+                    -0.2813785951,
+                    -0.9582540641,
+                    0.0507467708
+                ],
+                "contact_distance": -0.0008544573,
+                "Normal_force": 32.355218449
+            },
+            {
+                "position_on_A": [
+                    0.7327361954,
+                    0.0223819398,
+                    0.0313445654
+                ],
+                "position_on_B": [
+                    0.7334738611,
+                    0.0229628326,
+                    0.0316681785
+                ],
+                "contact_normal_on_B": [
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
+                ],
+                "contact_distance": 0.0006960494,
+                "Normal_force": 91.0522787294
+            },
+            {
+                "position_on_A": [
+                    0.730418079,
+                    0.0235074922,
+                    0.03398648
+                ],
+                "position_on_B": [
+                    0.7306082632,
+                    0.023508327,
+                    0.0342381095
+                ],
+                "contact_normal_on_B": [
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
+                ],
+                "contact_distance": 3.611e-05,
+                "Normal_force": 77.2609005522
+            },
+            {
+                "position_on_A": [
+                    0.7173177348,
+                    0.0273343237,
+                    0.034340332
+                ],
+                "position_on_B": [
+                    0.7170508567,
+                    0.02652475,
+                    0.0343839737
+                ],
+                "contact_normal_on_B": [
+                    -0.2813785951,
+                    -0.9582540641,
+                    0.0507467708
+                ],
+                "contact_distance": -0.0008530858,
+                "Normal_force": 32.390428233
+            },
+            {
+                "position_on_A": [
+                    0.7327364622,
+                    0.022384887,
+                    0.0313260909
+                ],
+                "position_on_B": [
+                    0.7334766776,
+                    0.0229654902,
+                    0.0316601466
+                ],
+                "contact_normal_on_B": [
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
+                ],
+                "contact_distance": 0.000696201,
+                "Normal_force": 91.0324570298
+            },
+            {
+                "position_on_A": [
+                    0.7304200757,
+                    0.0235101687,
+                    0.0339696377
+                ],
+                "position_on_B": [
+                    0.7306110641,
+                    0.0235109019,
+                    0.0342300777
+                ],
+                "contact_normal_on_B": [
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
+                ],
+                "contact_distance": 3.61337e-05,
+                "Normal_force": 77.2734902418
+            },
+            {
+                "position_on_A": [
+                    0.717319629,
+                    0.0273357899,
+                    0.0343326618
+                ],
+                "position_on_B": [
+                    0.7170535666,
+                    0.0265269159,
+                    0.0343759412
+                ],
+                "contact_normal_on_B": [
+                    -0.2813785951,
+                    -0.9582540641,
+                    0.0507467708
+                ],
+                "contact_distance": -0.0008521674,
+                "Normal_force": 32.3953209923
+            },
+            {
+                "position_on_A": [
+                    0.7327363715,
+                    0.0223879777,
+                    0.0313086104
+                ],
+                "position_on_B": [
+                    0.7334791762,
+                    0.022968003,
+                    0.0316528679
+                ],
+                "contact_normal_on_B": [
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
+                ],
+                "contact_distance": 0.0006960748,
+                "Normal_force": 91.0292344022
+            },
+            {
+                "position_on_A": [
+                    0.7304216841,
+                    0.0235129943,
+                    0.0339537578
+                ],
+                "position_on_B": [
+                    0.730613549,
+                    0.0235133404,
+                    0.0342227994
+                ],
+                "contact_normal_on_B": [
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
+                ],
+                "contact_distance": 3.58914e-05,
+                "Normal_force": 77.2883150896
+            },
+            {
+                "position_on_A": [
+                    0.7173211602,
+                    0.0273374876,
+                    0.0343257723
+                ],
+                "position_on_B": [
+                    0.7170559698,
+                    0.0265289872,
+                    0.0343686648
+                ],
+                "contact_normal_on_B": [
+                    -0.2813785951,
+                    -0.9582540641,
+                    0.0507467708
+                ],
+                "contact_distance": -0.0008515444,
+                "Normal_force": 32.3807248521
+            },
+            {
+                "position_on_A": [
+                    0.7327360007,
+                    0.0223912747,
+                    0.0312920299
+                ],
+                "position_on_B": [
+                    0.7334814217,
+                    0.022970554,
+                    0.0316462672
+                ],
+                "contact_normal_on_B": [
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
+                ],
+                "contact_distance": 0.0006957871,
+                "Normal_force": 91.0291210671
+            },
+            {
+                "position_on_A": [
+                    0.7304229819,
+                    0.0235160342,
+                    0.0339387458
+                ],
+                "position_on_B": [
+                    0.7306157826,
+                    0.0235158246,
+                    0.0342161996
+                ],
+                "contact_normal_on_B": [
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
+                ],
+                "contact_distance": 3.54956e-05,
+                "Normal_force": 77.3080481457
+            },
+            {
+                "position_on_A": [
+                    0.7173224029,
+                    0.0273394713,
+                    0.0343195712
+                ],
+                "position_on_B": [
+                    0.7170581301,
+                    0.0265311415,
+                    0.0343620688
+                ],
+                "contact_normal_on_B": [
+                    -0.2813785951,
+                    -0.9582540641,
+                    0.0507467708
+                ],
+                "contact_distance": -0.0008511027,
+                "Normal_force": 32.3505976743
+            },
+            {
+                "position_on_A": [
+                    0.7327361608,
+                    0.0223921094,
+                    0.0312764827
+                ],
+                "position_on_B": [
+                    0.7334834117,
+                    0.0229719346,
+                    0.0316403994
+                ],
+                "contact_normal_on_B": [
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
+                ],
+                "contact_distance": 0.0006966418,
+                "Normal_force": 90.9745038101
+            },
+            {
+                "position_on_A": [
+                    0.7304247938,
+                    0.0235167516,
+                    0.0339246909
+                ],
+                "position_on_B": [
+                    0.7306177615,
+                    0.0235171478,
+                    0.0342103316
+                ],
+                "contact_normal_on_B": [
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
+                ],
+                "contact_distance": 3.60947e-05,
+                "Normal_force": 77.3180598972
+            },
+            {
+                "position_on_A": [
+                    0.7173243307,
+                    0.0273397381,
+                    0.0343139346
+                ],
+                "position_on_B": [
+                    0.7170600456,
+                    0.0265321796,
+                    0.0343561992
+                ],
+                "contact_normal_on_B": [
+                    -0.2813785951,
+                    -0.9582540641,
+                    0.0507467708
+                ],
+                "contact_distance": -0.0008503552,
+                "Normal_force": 32.3973723601
+            },
+            {
+                "position_on_A": [
+                    0.7327356687,
+                    0.0223940237,
+                    0.0312618013
+                ],
+                "position_on_B": [
+                    0.7334850917,
+                    0.0229731429,
+                    0.0316350503
+                ],
+                "contact_normal_on_B": [
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
+                ],
+                "contact_distance": 0.0006963188,
+                "Normal_force": 90.9882687548
+            },
+            {
+                "position_on_A": [
+                    0.7304259068,
+                    0.0235184679,
+                    0.0339114937
+                ],
+                "position_on_B": [
+                    0.7306194321,
+                    0.0235183038,
+                    0.0342049831
+                ],
+                "contact_normal_on_B": [
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
+                ],
+                "contact_distance": 3.56244e-05,
+                "Normal_force": 77.3361616558
+            },
+            {
+                "position_on_A": [
+                    0.7173254959,
+                    0.027340775,
+                    0.0343090752
+                ],
+                "position_on_B": [
+                    0.7170616587,
+                    0.0265330773,
+                    0.0343508534
+                ],
+                "contact_normal_on_B": [
+                    -0.2813785951,
+                    -0.9582540641,
+                    0.0507467708
+                ],
+                "contact_distance": -0.0008503378,
+                "Normal_force": 32.3651088687
+            },
+            {
+                "position_on_A": [
+                    0.7327348412,
+                    0.0223968995,
+                    0.0312478172
+                ],
+                "position_on_B": [
+                    0.7334866419,
+                    0.0229748585,
+                    0.0316301747
+                ],
+                "contact_normal_on_B": [
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
+                ],
+                "contact_distance": 0.0006955818,
+                "Normal_force": 91.023397873
+            },
+            {
+                "position_on_A": [
+                    0.7304266474,
+                    0.0235211138,
+                    0.0338989732
+                ],
+                "position_on_B": [
+                    0.7306209744,
+                    0.0235199719,
+                    0.0342001088
+                ],
+                "contact_normal_on_B": [
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
+                ],
+                "contact_distance": 3.47912e-05,
+                "Normal_force": 77.355805742
+            },
+            {
+                "position_on_A": [
+                    0.7173262591,
+                    0.0273426353,
+                    0.0343047679
+                ],
+                "position_on_B": [
+                    0.7170631491,
+                    0.0265345116,
+                    0.0343459845
+                ],
+                "contact_normal_on_B": [
+                    -0.2813785951,
+                    -0.9582540641,
+                    0.0507467708
+                ],
+                "contact_distance": -0.0008505129,
+                "Normal_force": 32.3068347889
+            },
+            {
+                "position_on_A": [
+                    0.732733854,
+                    0.0224005257,
+                    0.0312344313
+                ],
+                "position_on_B": [
+                    0.7334881328,
+                    0.0229772513,
+                    0.0316257313
+                ],
+                "contact_normal_on_B": [
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
+                ],
+                "contact_distance": 0.0006947891,
+                "Normal_force": 91.0609176875
+            },
+            {
+                "position_on_A": [
+                    0.7304271956,
+                    0.0235245044,
+                    0.0338870232
+                ],
+                "position_on_B": [
+                    0.7306224585,
+                    0.0235223216,
+                    0.0341956669
+                ],
+                "contact_normal_on_B": [
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
+                ],
+                "contact_distance": 3.3922e-05,
+                "Normal_force": 77.3747274325
+            },
+            {
+                "position_on_A": [
+                    0.7173268196,
+                    0.0273452032,
+                    0.0343008802
+                ],
+                "position_on_B": [
+                    0.7170645863,
+                    0.0265366499,
+                    0.03434155
+                ],
+                "contact_normal_on_B": [
+                    -0.2813785951,
+                    -0.9582540641,
+                    0.0507467708
+                ],
+                "contact_distance": -0.0008506502,
+                "Normal_force": 32.2458810877
+            },
+            {
+                "position_on_A": [
+                    0.7327328083,
+                    0.0224047009,
+                    0.0312215798
+                ],
+                "position_on_B": [
+                    0.7334895899,
+                    0.0229802967,
+                    0.0316216824
+                ],
+                "contact_normal_on_B": [
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
+                ],
+                "contact_distance": 0.0006941027,
+                "Normal_force": 91.0961753434
+            },
+            {
+                "position_on_A": [
+                    0.7304276553,
+                    0.0235284526,
+                    0.0338755761
+                ],
+                "position_on_B": [
+                    0.7306239098,
+                    0.0235253281,
+                    0.0341916199
+                ],
+                "contact_normal_on_B": [
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
+                ],
+                "contact_distance": 3.31612e-05,
+                "Normal_force": 77.395348793
+            },
+            {
+                "position_on_A": [
+                    0.7173272922,
+                    0.027348332,
+                    0.0342973292
+                ],
+                "position_on_B": [
+                    0.7170659952,
+                    0.0265394653,
+                    0.0343375113
+                ],
+                "contact_normal_on_B": [
+                    -0.2813785951,
+                    -0.9582540641,
+                    0.0507467708
+                ],
+                "contact_distance": -0.0008506623,
+                "Normal_force": 32.1847892678
+            },
+            {
+                "position_on_A": [
+                    0.7327332038,
+                    0.0224055876,
+                    0.0312087746
+                ],
+                "position_on_B": [
+                    0.733491237,
+                    0.0229836357,
+                    0.0316181447
+                ],
+                "contact_normal_on_B": [
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
+                ],
+                "contact_distance": 0.0006967402,
+                "Normal_force": 90.9289788749
+            },
+            {
+                "position_on_A": [
+                    0.7304295723,
+                    0.0235294278,
+                    0.0338640542
+                ],
+                "position_on_B": [
+                    0.7306255507,
+                    0.0235286352,
+                    0.0341880819
+                ],
+                "contact_normal_on_B": [
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
+                ],
+                "contact_distance": 3.53714e-05,
+                "Normal_force": 77.3933386011
+            },
+            {
+                "position_on_A": [
+                    0.7173294801,
+                    0.0273494161,
+                    0.0342931721
+                ],
+                "position_on_B": [
+                    0.7170676006,
+                    0.0265426129,
+                    0.0343339718
+                ],
+                "contact_normal_on_B": [
+                    -0.2813785951,
+                    -0.9582540641,
+                    0.0507467708
+                ],
+                "contact_distance": -0.0008488802,
+                "Normal_force": 32.3459732079
+            },
+            {
+                "position_on_A": [
+                    0.7327327519,
+                    0.0224079287,
+                    0.0311967693
+                ],
+                "position_on_B": [
+                    0.7334925169,
+                    0.0229861726,
+                    0.0316148907
+                ],
+                "contact_normal_on_B": [
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
+                ],
+                "contact_distance": 0.0006972323,
+                "Normal_force": 90.8977811978
+            },
+            {
+                "position_on_A": [
+                    0.7304305881,
+                    0.0235317062,
+                    0.0338533479
+                ],
+                "position_on_B": [
+                    0.7306268257,
+                    0.0235311429,
+                    0.0341848287
+                ],
+                "contact_normal_on_B": [
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
+                ],
+                "contact_distance": 3.56209e-05,
+                "Normal_force": 77.4070938504
+            },
+            {
+                "position_on_A": [
+                    0.7173306538,
+                    0.0273514004,
+                    0.0342898444
+                ],
+                "position_on_B": [
+                    0.7170688434,
+                    0.0265449753,
+                    0.0343307221
+                ],
+                "contact_normal_on_B": [
+                    -0.2813785951,
+                    -0.9582540641,
+                    0.0507467708
+                ],
+                "contact_distance": -0.0008485024,
+                "Normal_force": 32.36476155
+            },
+            {
+                "position_on_A": [
+                    0.7327318534,
+                    0.0224113434,
+                    0.031185427
+                ],
+                "position_on_B": [
+                    0.7334936356,
+                    0.0229887338,
+                    0.0316119017
+                ],
+                "contact_normal_on_B": [
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
+                ],
+                "contact_distance": 0.0006967367,
+                "Normal_force": 90.9198687993
+            },
+            {
+                "position_on_A": [
+                    0.7304311102,
+                    0.0235349751,
+                    0.0338432978
+                ],
+                "position_on_B": [
+                    0.7306279405,
+                    0.0235336771,
+                    0.0341818411
+                ],
+                "contact_normal_on_B": [
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
+                ],
+                "contact_distance": 3.49886e-05,
+                "Normal_force": 77.4254982242
+            },
+            {
+                "position_on_A": [
+                    0.7173312656,
+                    0.0273541351,
+                    0.0342870972
+                ],
+                "position_on_B": [
+                    0.7170699287,
+                    0.0265473769,
+                    0.0343277409
+                ],
+                "contact_normal_on_B": [
+                    -0.2813785951,
+                    -0.9582540641,
+                    0.0507467708
+                ],
+                "contact_distance": -0.0008486765,
+                "Normal_force": 32.320957144
+            },
+            {
+                "position_on_A": [
+                    0.7327327759,
+                    0.0224130311,
+                    0.0311790362
+                ],
+                "position_on_B": [
+                    0.7334945228,
+                    0.0229916647,
+                    0.0316090383
+                ],
+                "contact_normal_on_B": [
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
+                ],
+                "contact_distance": 0.0006979609,
+                "Normal_force": 90.8512447884
+            },
+            {
+                "position_on_A": [
+                    0.7304333323,
+                    0.0235364112,
+                    0.0338381376
+                ],
+                "position_on_B": [
+                    0.7306288256,
+                    0.0235365816,
+                    0.034178981
+                ],
+                "contact_normal_on_B": [
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
+                ],
+                "contact_distance": 3.61686e-05,
+                "Normal_force": 77.4160185057
+            },
+            {
+                "position_on_A": [
+                    0.7173337161,
+                    0.0273555634,
+                    0.0342886958
+                ],
+                "position_on_B": [
+                    0.7170707853,
+                    0.0265501525,
+                    0.0343248957
+                ],
+                "contact_normal_on_B": [
+                    -0.2813785951,
+                    -0.9582540641,
+                    0.0507467708
+                ],
+                "contact_distance": -0.0008476084,
+                "Normal_force": 32.3959823348
+            },
+            {
+                "position_on_A": [
+                    0.7327352922,
+                    0.0224121018,
+                    0.0311718609
+                ],
+                "position_on_B": [
+                    0.7334956059,
+                    0.0229949804,
+                    0.0316064583
+                ],
+                "contact_normal_on_B": [
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
+                ],
+                "contact_distance": 0.0007019135,
+                "Normal_force": 90.4234976413
+            },
+            {
+                "position_on_A": [
+                    0.7304371609,
+                    0.0235355818,
+                    0.0338320544
+                ],
+                "position_on_B": [
+                    0.7306299061,
+                    0.023539878,
+                    0.0341764021
+                ],
+                "contact_normal_on_B": [
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
+                ],
+                "contact_distance": 3.96855e-05,
+                "Normal_force": 77.3825869313
+            },
+            {
+                "position_on_A": [
+                    0.7173087787,
+                    0.027364442,
+                    0.0342950907
+                ],
+                "position_on_B": [
+                    0.7170739876,
+                    0.0265535643,
+                    0.034338115
+                ],
+                "contact_normal_on_B": [
+                    -0.2777667912,
+                    -0.9592991514,
+                    0.0508993894
+                ],
+                "contact_distance": -0.0008452814,
+                "Normal_force": 32.736987413
+            },
+            {
+                "position_on_A": [
+                    0.7327408447,
+                    0.0224107507,
+                    0.03116145
+                ],
+                "position_on_B": [
+                    0.7334972377,
+                    0.0230002446,
+                    0.0316042817
+                ],
+                "contact_normal_on_B": [
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
+                ],
+                "contact_distance": 0.000707793,
+                "Normal_force": 90.0599573907
+            },
+            {
+                "position_on_A": [
+                    0.7304441814,
+                    0.0235346465,
+                    0.0338227355
+                ],
+                "position_on_B": [
+                    0.7306315336,
+                    0.0235451256,
+                    0.0341742244
+                ],
+                "contact_normal_on_B": [
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
+                ],
+                "contact_distance": 4.47073e-05,
+                "Normal_force": 77.3683231478
+            },
+            {
+                "position_on_A": [
+                    0.7173165106,
+                    0.0273651705,
+                    0.0342921368
+                ],
+                "position_on_B": [
+                    0.717075596,
+                    0.0265587258,
+                    0.0343359316
+                ],
+                "contact_normal_on_B": [
+                    -0.2777667912,
+                    -0.9592991514,
+                    0.0508993894
+                ],
+                "contact_distance": -0.0008427689,
+                "Normal_force": 33.0947326243
+            },
+            {
+                "position_on_A": [
+                    0.7327442327,
+                    0.0224110771,
+                    0.0311508333
+                ],
+                "position_on_B": [
+                    0.7334983761,
+                    0.0230037927,
+                    0.0316022709
+                ],
+                "contact_normal_on_B": [
+                    -0.1665875503,
+                    -0.9860259377,
+                    -0.0011992508
+                ],
+                "contact_distance": 0.0007106053,
+                "Normal_force": 89.898490285
+            },
+            {
+                "position_on_A": [
+                    0.7304490572,
+                    0.0235351754,
+                    0.0338133165
+                ],
+                "position_on_B": [
+                    0.7306326694,
+                    0.0235486588,
+                    0.0341722138
+                ],
+                "contact_normal_on_B": [
+                    -0.1899755926,
+                    -0.9817831395,
+                    0.0033378516
+                ],
+                "contact_distance": 4.69217e-05,
+                "Normal_force": 77.3754174203
+            },
+            {
+                "position_on_A": [
+                    0.7173219401,
+                    0.0273667491,
+                    0.0342895852
+                ],
+                "position_on_B": [
+                    0.7170767152,
+                    0.0265621842,
+                    0.034333922
+                ],
+                "contact_normal_on_B": [
+                    -0.2777667912,
+                    -0.9592991514,
+                    0.0508993894
+                ],
+                "contact_distance": -0.0008421905,
+                "Normal_force": 33.2495436928
             }
         ],
         "length_of_contact_points": {
-            "contact_joint_9": 4,
-            "contact_joint_10": 5
+            "contact_joint_left_finger": 2,
+            "contact_joint_right_finger": 123
         },
         "image_snapshot_path": "grasp_soap/fail_soap_3.jpg"
     },
     "4": {
         "pre_grasp_robot_coordinates": {
             "joint_0": {
-                "joint_position": -8.081e-07,
-                "joint_velocity": 7.42994e-05,
+                "joint_position": -3.1261e-06,
+                "joint_velocity": 0.0001360547,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1632,11 +4559,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.0879077477
+                "applied_joint_motor_torque": 0.1377233751
             },
             "joint_1": {
-                "joint_position": 0.9287168988,
-                "joint_velocity": 0.1781222638,
+                "joint_position": 0.9287175194,
+                "joint_velocity": 0.1781057522,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1645,11 +4572,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": -53.0479613987
+                "applied_joint_motor_torque": -53.0757241982
             },
             "joint_2": {
-                "joint_position": -1.04337e-05,
-                "joint_velocity": -0.0002457364,
+                "joint_position": 4.5502e-06,
+                "joint_velocity": -0.0006521205,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1658,11 +4585,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.940445328
+                "applied_joint_motor_torque": 0.9731110528
             },
             "joint_3": {
-                "joint_position": -1.4274703886,
-                "joint_velocity": 0.1771662986,
+                "joint_position": -1.427440463,
+                "joint_velocity": 0.1763669715,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1671,11 +4598,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 20.0555527025
+                "applied_joint_motor_torque": 20.0748926539
             },
             "joint_4": {
-                "joint_position": 3.2589e-06,
-                "joint_velocity": 0.0001198782,
+                "joint_position": -3.2834e-06,
+                "joint_velocity": 0.0002921485,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1684,11 +4611,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.9199634646
+                "applied_joint_motor_torque": 0.8948774688
             },
             "joint_5": {
-                "joint_position": 2.3561996758,
-                "joint_velocity": -0.0001358741,
+                "joint_position": 2.356203163,
+                "joint_velocity": -0.0002294291,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1697,11 +4624,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 1.7123484876
+                "applied_joint_motor_torque": 1.7154482052
             },
             "joint_6": {
-                "joint_position": 2.9671006435,
-                "joint_velocity": -3.86091e-05,
+                "joint_position": 2.9557042147,
+                "joint_velocity": 0.3038876093,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1710,7 +4637,7 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.0178358834
+                "applied_joint_motor_torque": -0.0364811558
             },
             "joint_7": {
                 "joint_position": 0.0,
@@ -1739,8 +4666,8 @@
                 "applied_joint_motor_torque": 0.0
             },
             "joint_9": {
-                "joint_position": 0.0397815485,
-                "joint_velocity": 0.0059183122,
+                "joint_position": 0.0397773604,
+                "joint_velocity": 0.0060312986,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1749,11 +4676,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.0323898787
+                "applied_joint_motor_torque": 0.0314962551
             },
             "joint_10": {
-                "joint_position": 0.0397795661,
-                "joint_velocity": 0.0057890409,
+                "joint_position": 0.0397824235,
+                "joint_velocity": 0.0057115936,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1762,18 +4689,18 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": -0.0635546381
+                "applied_joint_motor_torque": -0.0638941869
             },
             "link_state": [
-                0.7202552059,
-                -6.8989e-06,
-                0.0312070432
+                0.7202699597,
+                1.8387e-06,
+                0.0312207848
             ]
         },
         "post_grasp_robot_coordinates": {
             "joint_0": {
-                "joint_position": 1.8223e-06,
-                "joint_velocity": 4.159e-07,
+                "joint_position": 1.8067e-06,
+                "joint_velocity": 8.326e-07,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1782,11 +4709,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.0005809223
+                "applied_joint_motor_torque": 0.0008440672
             },
             "joint_1": {
-                "joint_position": 0.935349355,
-                "joint_velocity": 0.0012593563,
+                "joint_position": 0.9353493595,
+                "joint_velocity": 0.0012592367,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1795,11 +4722,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": -46.5307608087
+                "applied_joint_motor_torque": -46.5309507141
             },
             "joint_2": {
-                "joint_position": -1.74949e-05,
-                "joint_velocity": -1.0592e-06,
+                "joint_position": -1.74421e-05,
+                "joint_velocity": -2.5058e-06,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1808,11 +4735,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.7958228653
+                "applied_joint_motor_torque": 0.7959894686
             },
             "joint_3": {
-                "joint_position": -1.4208719859,
-                "joint_velocity": 0.0012540441,
+                "joint_position": -1.4208717792,
+                "joint_velocity": 0.0012485202,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1821,11 +4748,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 18.1110720584
+                "applied_joint_motor_torque": 18.1112043768
             },
             "joint_4": {
-                "joint_position": 6.9721e-06,
-                "joint_velocity": 2.383e-07,
+                "joint_position": 6.9255e-06,
+                "joint_velocity": 1.4871e-06,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1834,11 +4761,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.8490300523
+                "applied_joint_motor_torque": 0.848870909
             },
             "joint_5": {
-                "joint_position": 2.3561945795,
-                "joint_velocity": -9.477e-07,
+                "joint_position": 2.3561946052,
+                "joint_velocity": -1.6328e-06,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1847,11 +4774,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 1.5856823903
+                "applied_joint_motor_torque": 1.5857036302
             },
             "joint_6": {
-                "joint_position": 2.9671,
-                "joint_velocity": -1e-09,
+                "joint_position": 2.9670194358,
+                "joint_velocity": 0.0021483792,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1860,7 +4787,7 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.015624868
+                "applied_joint_motor_torque": -0.0002311112
             },
             "joint_7": {
                 "joint_position": 0.0,
@@ -1889,8 +4816,8 @@
                 "applied_joint_motor_torque": 0.0
             },
             "joint_9": {
-                "joint_position": 0.0002845234,
-                "joint_velocity": -0.0074992575,
+                "joint_position": 0.0002844973,
+                "joint_velocity": -0.0074985523,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1899,11 +4826,11 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.0203093758
+                "applied_joint_motor_torque": 0.020303159
             },
             "joint_10": {
-                "joint_position": 0.0002780749,
-                "joint_velocity": -0.0074998412,
+                "joint_position": 0.0002780941,
+                "joint_velocity": -0.0075003613,
                 "joint_reaction_forces": [
                     0.0,
                     0.0,
@@ -1912,211 +4839,19 @@
                     0.0,
                     0.0
                 ],
-                "applied_joint_motor_torque": 0.0196209959
+                "applied_joint_motor_torque": 0.0196267074
             },
             "link_state": [
-                0.7211389656,
-                -9.8421e-06,
-                0.0289589464
+                0.7211390678,
+                -9.8195e-06,
+                0.0289590414
             ]
         },
-        "contact_points_joint_9": [
-            {
-                "position_on_A": [
-                    0.7033003596,
-                    0.0013755857,
-                    0.0276444943
-                ],
-                "position_on_B": [
-                    0.7034674633,
-                    0.0006664179,
-                    0.027657009
-                ],
-                "contact_normal_on_B": [
-                    0.2293185284,
-                    -0.9731999103,
-                    0.0171740216
-                ],
-                "contact_distance": -0.0007286969,
-                "Normal_force": 5.9108176956
-            },
-            {
-                "position_on_A": [
-                    0.7046549642,
-                    0.0004084364,
-                    0.02687186
-                ],
-                "position_on_B": [
-                    0.7047972908,
-                    -0.0002194896,
-                    0.0268825753
-                ],
-                "contact_normal_on_B": [
-                    0.2210236469,
-                    -0.9751264808,
-                    0.0166401306
-                ],
-                "contact_distance": -0.0006439431,
-                "Normal_force": 0.0
-            },
-            {
-                "position_on_A": [
-                    0.7055910138,
-                    -0.0006310299,
-                    0.0310984851
-                ],
-                "position_on_B": [
-                    0.705671332,
-                    -0.0010075715,
-                    0.0311045856
-                ],
-                "contact_normal_on_B": [
-                    0.2085857067,
-                    -0.9778757605,
-                    0.0158429795
-                ],
-                "contact_distance": -0.0003850608,
-                "Normal_force": 0.0
-            },
-            {
-                "position_on_A": [
-                    0.7062826132,
-                    -0.0014736692,
-                    0.0369944777
-                ],
-                "position_on_B": [
-                    0.7063326299,
-                    -0.0017096634,
-                    0.0369982803
-                ],
-                "contact_normal_on_B": [
-                    0.2073089447,
-                    -0.978148551,
-                    0.0157611444
-                ],
-                "contact_distance": -0.0002412662,
-                "Normal_force": 0.0
-            },
-            {
-                "position_on_A": [
-                    0.706643846,
-                    -0.0028515413,
-                    0.0371923094
-                ],
-                "position_on_B": [
-                    0.7067844827,
-                    -0.0023395943,
-                    0.0372001576
-                ],
-                "contact_normal_on_B": [
-                    -0.2648671168,
-                    -0.9641716343,
-                    -0.0147807337
-                ],
-                "contact_distance": 0.0005309708,
-                "Normal_force": 0.0
-            }
-        ],
-        "contact_points_joint_10": [
-            {
-                "position_on_A": [
-                    0.7367579805,
-                    -0.0220950955,
-                    0.0345241524
-                ],
-                "position_on_B": [
-                    0.7359933685,
-                    -0.0221694824,
-                    0.0345218117
-                ],
-                "contact_normal_on_B": [
-                    -0.9952963179,
-                    -0.0968295221,
-                    -0.0030468423
-                ],
-                "contact_distance": -0.0007682254,
-                "Normal_force": 9.9056494424
-            },
-            {
-                "position_on_A": [
-                    0.7345914963,
-                    -0.0206183629,
-                    0.0347800743
-                ],
-                "position_on_B": [
-                    0.7339103818,
-                    -0.0207042481,
-                    0.0347778471
-                ],
-                "contact_normal_on_B": [
-                    -0.9921383626,
-                    -0.125103732,
-                    -0.0032443227
-                ],
-                "contact_distance": -0.0006865117,
-                "Normal_force": 0.0
-            },
-            {
-                "position_on_A": [
-                    0.7324620169,
-                    -0.0196681054,
-                    0.0346814779
-                ],
-                "position_on_B": [
-                    0.7320334305,
-                    -0.0193568833,
-                    0.0346574652
-                ],
-                "contact_normal_on_B": [
-                    -0.9921383626,
-                    -0.125103732,
-                    -0.0032443227
-                ],
-                "contact_distance": -0.0003863599,
-                "Normal_force": 0.0
-            },
-            {
-                "position_on_A": [
-                    0.7303161966,
-                    -0.0187136498,
-                    0.0344806677
-                ],
-                "position_on_B": [
-                    0.7303441386,
-                    -0.018144216,
-                    0.034549115
-                ],
-                "contact_normal_on_B": [
-                    -0.9921383626,
-                    -0.125103732,
-                    -0.0032443227
-                ],
-                "contact_distance": 9.91827e-05,
-                "Normal_force": 0.0
-            },
-            {
-                "position_on_A": [
-                    0.7281529383,
-                    -0.017756386,
-                    0.0341760503
-                ],
-                "position_on_B": [
-                    0.7288237477,
-                    -0.0170528081,
-                    0.0344515959
-                ],
-                "contact_normal_on_B": [
-                    -0.9921383626,
-                    -0.125103732,
-                    -0.0032443227
-                ],
-                "contact_distance": 0.0007544499,
-                "Normal_force": 0.0
-            }
-        ],
+        "contact_points_left_finger": [],
+        "contact_points_right_finger": [],
         "length_of_contact_points": {
-            "contact_joint_9": 5,
-            "contact_joint_10": 5
+            "contact_joint_left_finger": 0,
+            "contact_joint_right_finger": 0
         },
         "image_snapshot_path": "grasp_soap/fail_soap_4.jpg"
     }
