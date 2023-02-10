@@ -18,7 +18,7 @@ def move_arm_and_rotate(pandaUid, coeff=-math.pi/4):
     p.setJointMotorControl2(pandaUid, 4, 
                 p.POSITION_CONTROL,0) # can modify
     p.setJointMotorControl2(pandaUid, 6, 
-                p.POSITION_CONTROL,coeff) # can modify
+                p.POSITION_CONTROL,coeff) # can modify, spin the gripper to a random angle
     p.setJointMotorControl2(pandaUid, 0, 
                             p.POSITION_CONTROL,0) # do not modify
     p.setJointMotorControl2(pandaUid, 1, 
@@ -126,7 +126,7 @@ def main(args):
             
         if current_state == 1:        
             approach_object(pandaUid)
-            rgb_array, depth_img, seg_img = get_grasp_img()
+            rgb_array, depth_img, seg_img = get_grasp_img() # get coordinates right here, pandaUID and objectUID
         
         if current_state == 2:        
             grip_object(pandaUid)
@@ -139,7 +139,7 @@ def main(args):
         if state_t > state_durations[current_state]:
             
             if current_state == 3: 
-                contact = p.getContactPoints(objectUid, pandaUid)    
+                contact = p.getContactPoints(objectUid, pandaUid)    # get coordinate information from pandaUiD, objectUiD  
                 if len(contact) > 5: 
                     file_name_success = "success_" + object_name + "_" +  str(success_counter) + ".jpg"
                     file_name_success_depth = "success_depth_" + object_name + "_" +  str(success_counter) + ".jpg"
