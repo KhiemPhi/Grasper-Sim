@@ -82,6 +82,10 @@ def reset_object(objectUid, models, object_name, state_object):
 
 # get_grasp_img: this function facilitates in fetching the snapshots at various instances during the grasp.
 def get_grasp_img():
+    
+    #Camera Refenrence Frame Because We Give Camera Position Then Photo is Captured There
+    
+    
     view_matrix = p.computeViewMatrixFromYawPitchRoll(cameraTargetPosition=[0.52,-0.64,0.14],
                                                                 distance=1.20,
                                                                 yaw=168.0,
@@ -92,11 +96,18 @@ def get_grasp_img():
                                                 aspect=float(960) /720,
                                                 nearVal=0.1,
                                                 farVal=10.0)
+    
+    
+    
     (_, _, rgba_img, depth_img, seg_img) = p.getCameraImage(width=960,
                                         height=720,
                                         viewMatrix=view_matrix,
                                         projectionMatrix=proj_matrix,
                                         renderer=p.ER_BULLET_HARDWARE_OPENGL)
+    
+    # Generate Point-Cloud Here
+
+
 
     rgb_array = np.array(rgba_img, dtype=np.uint8)
     rgb_array = np.reshape(rgb_array, (720,960, 4))        
@@ -108,6 +119,66 @@ def get_grasp_img():
     return rgb_array, depth_new, seg_img
     
 
+def get_point_cloud_image(): 
+
+    #Camera Refenrence Frame Because We Give Camera Position Then Photo is Captured There
+    
+    
+    view_matrix = p.computeViewMatrixFromYawPitchRoll(cameraTargetPosition=[0.55,0.65,-0.64],
+                                                                distance=1.40,
+                                                                yaw=0.0,
+                                                                pitch=-40,
+                                                                roll=0,
+                                                                upAxisIndex=2)
+    proj_matrix = p.computeProjectionMatrixFOV(fov=60,
+                                                aspect=float(960) /720,
+                                                nearVal=0.1,
+                                                farVal=10.0)
+    
+    
+    
+    
+    (_, _, rgba_img, depth_img, seg_img) = p.getCameraImage(width=960,
+                                        height=720,
+                                        viewMatrix=view_matrix,
+                                        projectionMatrix=proj_matrix,
+                                        renderer=p.ER_BULLET_HARDWARE_OPENGL)
+    
+    # Generate Point-Cloud Here
+    img_height = 720 
+    img_width = 960
+    stepX = 10
+    stepY = 10        
+    pointCloud = np.empty([np.int(img_height/stepY), np.int(img_width/stepX), 4])
+    projectionMatrix = np.asarray(proj_matrix).reshape([4,4],order='F')
+    viewMatrix = np.asarray(view_matrix).reshape([4,4],order='F')
+    tran_pix_world = np.linalg.inv(np.matmul(projectionMatrix, viewMatrix))
+    for h in range(0, img_height, stepY):
+        for w in range(0, img_width, stepX):
+            x = (2*w - img_width)/img_width
+            y = -(2*h - img_height)/img_height  # be careful！ deepth and its corresponding position
+            z = 2*depth_img[h,w] - 1
+            pixPos = np.asarray([x, y, z, 1])
+            position = np.matmul(tran_pix_world, pixPos)
+            pointCloud[np.int(h/stepY),np.int(w/stepX),:] = position / position[3]
+    
+    breakpoint()
+
+
+
+    rgb_array = np.array(rgba_img, dtype=np.uint8)
+    rgb_array = np.reshape(rgb_array, (720,960, 4))        
+    rgb_array = rgb_array[:, :, :3]
+
+    #depth_img = (depth_img*255).astype(np.uint8)
+    depth_new = np.array(depth_img,dtype=np.uint8)
+
+    return rgb_array, depth_new, seg_img
+
+
+
+
+
 def main(args):
 
     # setting the initial parameters.
@@ -118,7 +189,7 @@ def main(args):
     success_counter = 0 
     fail_counter = 0
     num_simulations = args.num_sim
-    state_durations = [0.2, 0.2, 0.2, 0.2] # number of seconds to hold state
+    state_durations = [2.0, 0.2, 0.2, 0.2] # number of seconds to hold state
 
     p.connect(p.GUI)
     p.setGravity(0,0,-10)
@@ -136,8 +207,8 @@ def main(args):
     print("Root path: \n",urdfRootPath)
     pandaUid = p.loadURDF(os.path.join(urdfRootPath, "franka_panda/panda.urdf"),useFixedBase=True)
     tableUid = p.loadURDF(os.path.join(urdfRootPath, "table/table.urdf"),basePosition=[0.5,0,-0.65])
-    trayUid = p.loadURDF(os.path.join(urdfRootPath, "tray/traybox.urdf"),basePosition=[0.65,0,0])
-
+    #trayUid = p.loadURDF(os.path.join(urdfRootPath, "tray/traybox.urdf"),basePosition=[0.65,0,0])
+    
     
     models = md.model_lib()
     namelist = models.model_name_list
